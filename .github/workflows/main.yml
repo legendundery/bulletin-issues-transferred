@@ -33,8 +33,6 @@ jobs:
         run: |
           # 删除旧锁文件
           rm -f deno.lock
-          # 强制安装 npm 依赖（确保 yaml 等包被识别）
-          deno task prepare  # 假设你在 tasks 里加了 "prepare": "deno cache --reload --import-map=deno.jsonc"
           # 或直接运行：
           deno cache --reload --import-map=deno.jsonc --node-modules-dir=true src/**/*.ts
           # ↑ --node-modules-dir=true 强制启用 npm 兼容模式
