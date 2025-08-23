@@ -1,7 +1,7 @@
 name: BIT Notice Update (WebVPN + RSS)
 on:
   schedule:
-    - cron: '*/10 * * * *'  # 每 10 分钟运行（可改 5 分钟：*/5 * * * *）
+    - cron: '*/10 * * * *'  # 每10分钟运行
   workflow_dispatch:  # 手动触发
 
 jobs:
@@ -18,34 +18,28 @@ jobs:
       - name: Setup Deno
         uses: denoland/setup-deno@v2
         with:
-          deno-version: latest  # 或固定版本（如 1.41.0）
+          deno-version: latest
 
-      # 3. 配置 WebVPN 账号（从 Secrets 读，写入 proxy.secrets.json）
+      # 3. 配置 WebVPN 账号
       - name: Configure WebVPN
         run: |
           mkdir -p config
           echo '${{ secrets.PROXY_SECRETS }}' > config/proxy.secrets.json
-          # 校验格式（可选，防止配置错误）
-          # deno run --allow-read scripts/validate-proxy-config.ts  # 若项目有校验脚本
 
       # 修复依赖完整性 + 处理 npm 依赖
       - name: Fix dependencies & Integrity
         run: |
-          # 删除旧锁文件
           rm -f deno.lock
-          # 或直接运行：
           deno cache --reload --import-map=deno.jsonc --node-modules-dir=true src/**/*.ts
-          # ↑ --node-modules-dir=true 强制启用 npm 兼容模式
 
-      # 4. 执行核心任务（WebVPN + RSS 生成）
+      # 4. 执行核心任务
       - name: Run Update Server
         env:
           PROXY_USERNAME: ${{ secrets.PROXY_USERNAME }} 
           PROXY_PASSWORD: ${{ secrets.PROXY_PASSWORD }}
         run: deno task update-server
-        # 权限已在 deno.jsonc 的 tasks 中声明，无需重复加
 
-      # 5. 部署 RSS 到 GitHub Pages（让 RSS 可公开订阅）
+      # 5. 部署 RSS 到 GitHub Pages
       - name: Deploy RSS to Pages
         uses: peaceiris/actions-gh-pages@v4
         with:
@@ -59,11 +53,15 @@ jobs:
         with:
           name: outputs
           path: output/
+
   send-rss-email:
+    needs: run-update  # 确保在更新完成后再发送邮件
     runs-on: ubuntu-latest
     steps:
       - name: Checkout code
         uses: actions/checkout@v4
+        with:
+          ref: main  # 明确指定主分支
 
       - name: Set up Node.js
         uses: actions/setup-node@v4
@@ -72,7 +70,17 @@ jobs:
 
       - name: Install dependencies
         run: |
-          npm install rss-parser nodemailer  # 解析RSS和发送邮件的库
+          npm install rss-parser nodemailer
+
+      # 恢复上次发送记录
+      - name: Restore last sent ID
+        run: |
+          if [ -f "last-sent-id.txt" ]; then
+            echo "Found existing last-sent-id.txt"
+          else
+            echo "No existing last-sent-id.txt, creating empty file"
+            touch last-sent-id.txt
+          fi
 
       - name: Fetch RSS and send email
         env:
@@ -81,7 +89,8 @@ jobs:
           SMTP_USER: ${{ secrets.EMAIL_USER }}
           SMTP_PASS: ${{ secrets.EMAIL_PASSWORD }}
           TO_EMAIL: ${{ secrets.RECIPIENT_EMAIL }}
-          RSS_URL: "https://github.com/legendundery/bulletin-issues-transferred/blob/gh-pages/feed.rss"  # 替换为你的RSS地址
+          # 修复RSS URL为正确的GitHub Pages链接
+          RSS_URL: "https://legendundery.github.io/bulletin-issues-transferred/feed.rss"
         run: |
           node -e "
             const Parser = require('rss-parser');
@@ -89,7 +98,7 @@ jobs:
             const fs = require('fs');
             const path = require('path');
 
-            // 记录上次发送的条目ID，避免重复发送
+            // 记录上次发送的条目ID
             const lastSentFile = path.join(__dirname, 'last-sent-id.txt');
             let lastSentId = '';
             if (fs.existsSync(lastSentFile)) {
@@ -99,57 +108,65 @@ jobs:
             // 解析RSS
             const parser = new Parser();
             (async () => {
-              const feed = await parser.parseURL(process.env.RSS_URL);
-              const newItems = feed.items
-                .filter(item => item.guid !== lastSentId)  // 只取新条目
-                .sort((a, b) => new Date(b.isoDate) - new Date(a.isoDate));  // 按时间排序
+              try {
+                const feed = await parser.parseURL(process.env.RSS_URL);
+                const newItems = feed.items
+                  .filter(item => item.guid !== lastSentId)
+                  .sort((a, b) => new Date(b.isoDate) - new Date(a.isoDate));
 
-              if (newItems.length === 0) {
-                console.log('No new RSS items.');
-                return;
-              }
-
-              // 构建邮件内容
-              const emailContent = `
-                <h2>最新更新 (${newItems.length}条)</h2>
-                <ul>
-                  ${newItems.map(item => `
-                    <li>
-                      <h3><a href="${item.link}">${item.title}</a></h3>
-                      <p>${item.contentSnippet || '无摘要'}</p>
-                      <small>发布时间：${new Date(item.isoDate).toLocaleString()}</small>
-                    </li>
-                  `).join('')}
-                </ul>
-              `;
-
-              // 配置邮件 transporter
-              const transporter = nodemailer.createTransport({
-                host: process.env.SMTP_SERVER,
-                port: process.env.SMTP_PORT,
-                secure: true,  // 对于465端口需要开启
-                auth: {
-                  user: process.env.SMTP_USER,
-                  pass: process.env.SMTP_PASS
+                if (newItems.length === 0) {
+                  console.log('No new RSS items.');
+                  return;
                 }
-              });
 
-              // 发送邮件
-              await transporter.sendMail({
-                from: `"RSS 通知" <${process.env.SMTP_USER}>`,
-                to: process.env.TO_EMAIL,
-                subject: `【新内容】${feed.title} 更新`,
-                html: emailContent
-              });
+                // 构建邮件内容
+                const emailContent = `
+                  <h2>最新更新 (${newItems.length}条)</h2>
+                  <ul>
+                    ${newItems.map(item => `
+                      <li>
+                        <h3><a href="${item.link}">${item.title}</a></h3>
+                        <p>${item.contentSnippet || '无摘要'}</p>
+                        <small>发布时间：${new Date(item.isoDate).toLocaleString()}</small>
+                      </li>
+                    `).join('')}
+                  </ul>
+                `;
 
-              // 记录最后发送的条目ID
-              fs.writeFileSync(lastSentFile, newItems[0].guid);
-              console.log('Email sent successfully.');
+                // 配置邮件 transporter
+                const transporter = nodemailer.createTransport({
+                  host: process.env.SMTP_SERVER,
+                  port: process.env.SMTP_PORT,
+                  secure: true,
+                  auth: {
+                    user: process.env.SMTP_USER,
+                    pass: process.env.SMTP_PASS
+                  }
+                });
+
+                // 发送邮件
+                await transporter.sendMail({
+                  from: `"RSS 通知" <${process.env.SMTP_USER}>`,
+                  to: process.env.TO_EMAIL,
+                  subject: `【新内容】${feed.title} 更新`,
+                  html: emailContent
+                });
+
+                // 记录最后发送的条目ID
+                fs.writeFileSync(lastSentFile, newItems[0].guid);
+                console.log('Email sent successfully.');
+              } catch (error) {
+                console.error('Error occurred:', error);
+                process.exit(1);
+              }
             })();
           "
 
-      - name: Save last sent ID
-        uses: actions/upload-artifact@v4
-        with:
-          name: last-sent-id
-          path: last-sent-id.txt  # 保存上次发送记录，避免重复
+      # 提交更新后的last-sent-id.txt到仓库
+      - name: Save last sent ID to repository
+        run: |
+          git config --global user.name "GitHub Action"
+          git config --global user.email "action@github.com"
+          git add last-sent-id.txt
+          git commit -m "Update last sent RSS item ID" || echo "No changes to commit"
+          git push origin main
