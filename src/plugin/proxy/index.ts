@@ -12,8 +12,8 @@ import { logger } from '../../util/logger.ts'
 // 从环境变量(GitHub Secrets)加载配置
 function load_config({ match: hostnames }: { match: string[] }) {
     // 从环境变量获取GitHub Secrets
-    const username = Deno.env.get('PROXY_USERNAME');
-    const password = Deno.env.get('PROXY_PASSWORD');
+    const username = os.environ.get('PROXY_USERNAME');
+    const password = os.environ.get('PROXY_PASSWORD');
 
     if (!username || !password) {
         throw new Error('VirtualBIT credentials not found in environment variables');
