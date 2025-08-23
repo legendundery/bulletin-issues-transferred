@@ -1,0 +1,52 @@
+name: Auto Run Bulletin Update (Every 5 Minutes)
+
+on:
+  schedule:
+    
+    - cron: '*/10 * * * *'  # 核心定时规则：每5分钟执行一次
+  workflow_dispatch:  # 允许手动触发，用于测试工作流是否正常
+
+jobs:
+  update-notices:
+    # Ubuntu 
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repository Code
+        uses: actions/checkout@v4  # GitHub 官方拉取代码的 Action，v4 为最新稳定版
+
+      # 安装 Deno 运行时
+      - name: Install Deno
+        uses: denoland/setup-deno@v2  # Deno 官方提供的 Actions 插件，自动安装最新版 Deno
+        with:
+          deno-version: latest  # 指定安装最新版 Deno
+
+      # 将 GitHub Secrets 中的敏感信息写入项目所需的配置文件（proxy.secrets.json）
+      - name: Setup Sensitive Configs
+        if: ${{ github.event_name != 'workflow_dispatch' }}  # 可选：仅定时触发时执行
+        run: |
+          # 1. 创建 proxy 配置文件（若需运行 update-proxy）
+          echo '${{ secrets.PROXY_SECRETS }}' > config/proxy.secrets.json
+          # 2. 创建 ding 配置文件（若需运行 update-ding）
+          echo '${{ secrets.DING_SECRETS }}' > config/ding.secrets.json
+          # 说明：PROXY_SECRETS/DING_SECRETS 是 GitHub 仓库 Secrets 的名称，需提前配置
+
+      # 步骤4：安装项目依赖并运行核心命令
+      - name: Install Dependencies & Run Update
+        run: |
+          # 1. 安装项目依赖（按 README 要求执行 deno install）
+          deno install --allow-net --allow-read --allow-write --allow-env  # 显式声明 Deno 权限（关键！）
+          # 2. 运行目标命令（根据需求选择，以下为常见场景）
+          # 场景1：基础更新（无代理、无推送）
+          deno task update
+          # 场景2：代理更新 + RSS 生成（服务器场景，对应 update-server）
+          # deno task update-server
+          # 场景3：代理更新 + 钉钉推送（对应 update-server-ding）
+          # deno task update-server-ding
+          # 说明：Deno 需显式声明权限（--allow-net 网络访问、--allow-read/write 文件读写、--allow-env 环境变量）
+
+      # 步骤5：保存输出结果（如 notices.json）到 Actions  artifacts，便于调试
+      - name: Upload Output Files
+        uses: actions/upload-artifact@v4
+        with:
+          name: notice-outputs  # 输出文件的压缩包名称
+          path: output/notices.json  # 需保存的文件路径（项目历史通知存储路径）
