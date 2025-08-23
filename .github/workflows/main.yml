@@ -28,6 +28,14 @@ jobs:
           # 校验格式（可选，防止配置错误）
           # deno run --allow-read scripts/validate-proxy-config.ts  # 若项目有校验脚本
 
+      # 新增：
+      - name: Fix dependency integrity
+        run: |
+          # 删除旧锁文件
+          if [ -f "deno.lock" ]; then rm deno.lock; fi
+          # 强制重新加载依赖并生成新锁文件（使用项目中的导入映射）
+          deno cache --reload --import-map=deno.json src/**/*.ts
+      
       # 4. 执行核心任务（WebVPN + RSS 生成）
       - name: Run Update Server
         run: deno task update-server
