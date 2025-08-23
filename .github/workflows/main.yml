@@ -1,66 +1,49 @@
-name: Auto Run Bulletin Update (WebVPN + RSS)
-
-# 触发条件：每10分钟定时运行 + 手动触发测试
+name: BIT Notice Update (WebVPN + RSS)
 on:
   schedule:
-    - cron: '*/10 * * * *'  # 需5分钟则改为 */5 * * * *（注意合规性，避免高频压力）
-  workflow_dispatch:
+    - cron: '*/10 * * * *'  # 每 10 分钟运行（可改 5 分钟：*/5 * * * *）
+  workflow_dispatch:  # 手动触发
 
 jobs:
-  webvpn-update-and-rss:
+  run-update:
     runs-on: ubuntu-latest
     steps:
-      # 步骤1：拉取仓库代码（含WebVPN配置模板、通知源规则）
-      - name: Checkout Repository Code
+      # 1. 拉取仓库代码（含配置文件）
+      - name: Checkout
         uses: actions/checkout@v4
         with:
-          fetch-depth: 0  # 拉取全量历史，确保GitHub Pages部署正常
+          fetch-depth: 0  # 拉取全量历史
 
-      # 步骤2：安装Deno运行时（项目依赖，含virtual-BIT-network）
-      - name: Install Deno
+      # 2. 安装 Deno（原项目依赖）
+      - name: Setup Deno
         uses: denoland/setup-deno@v2
         with:
-          deno-version: latest  # 若出现兼容问题，可改为原项目依赖的Deno版本（参考deno.jsonc）
+          deno-version: latest  # 或固定版本（如 1.41.0）
 
-      # 步骤3：（核心新增）配置WebVPN统一身份认证信息
-      # 从GitHub Secrets读取敏感信息，写入项目要求的proxy.secrets.json
-      - name: Setup WebVPN Authentication
+      # 3. 配置 WebVPN 账号（从 Secrets 读，写入 proxy.secrets.json）
+      - name: Configure WebVPN
         run: |
-          # 1. 确认config目录存在（避免文件写入失败）
           mkdir -p config
-          # 2. 将Secrets中的WebVPN配置写入proxy.secrets.json（格式需符合config/proxy.secrets.schema.json）
-          # 注意：PROXY_SECRETS是你在仓库Secrets中配置的密钥名称，内容为JSON字符串
           echo '${{ secrets.PROXY_SECRETS }}' > config/proxy.secrets.json
-          # 3. 验证文件是否写入成功（仅输出文件名，避免暴露敏感信息）
-          echo "WebVPN config file created: $(ls config/proxy.secrets.json)"
+          # 校验格式（可选，防止配置错误）
+          # deno run --allow-read scripts/validate-proxy-config.ts  # 若项目有校验脚本
 
-      # 步骤4：通过WebVPN获取通知 + 生成RSS
-      - name: Update Notices via WebVPN & Generate RSS
-        run: |
-          # 1. 安装项目依赖（显式声明Deno权限：网络/WebVPN请求、文件读写/RSS生成、环境变量）
-          deno install --global --allow-net --allow-read --allow-write --allow-env --allow-run
-          # 2. 执行update-server命令（原项目定义：proxy+rss，通过WebVPN获取通知并生成RSS）
-          deno task update-server
-          # 3. 验证输出文件（确认rss.xml和notices.json已生成，便于调试）
-          echo "Output files after execution:"
-          ls -l output/
+      # 4. 执行核心任务（WebVPN + RSS 生成）
+      - name: Run Update Server
+        run: deno task update-server
+        # 权限已在 deno.jsonc 的 tasks 中声明，无需重复加
 
-      # 步骤5：部署RSS到GitHub Pages，实现公开订阅
-      - name: Deploy RSS to GitHub Pages
+      # 5. 部署 RSS 到 GitHub Pages（让 RSS 可公开订阅）
+      - name: Deploy RSS to Pages
         uses: peaceiris/actions-gh-pages@v4
         with:
-          publish_dir: ./output  # RSS文件（rss.xml）所在目录
-          publish_branch: gh-pages  # GitHub Pages默认分支
-          github_token: ${{ secrets.GITHUB_TOKEN }}  # 自动生成的令牌，无需额外配置
-          keep_files: false  # 仅保留最新RSS文件，避免分支体积过大
-          destination_dir: ./  # RSS链接为 https://用户名.github.io/仓库名/rss.xml
+          publish_dir: ./output
+          publish_branch: gh-pages
+          github_token: ${{ secrets.GITHUB_TOKEN }}
 
-      # 步骤6：（可选）上传输出文件到Artifacts，便于本地调试WebVPN问题
-      - name: Upload WebVPN & RSS Logs
+      # 6. 上传输出文件（调试用）
+      - name: Upload Artifacts
         uses: actions/upload-artifact@v4
         with:
-          name: webvpn-rss-outputs
-          path: |
-            output/rss.xml       # 生成的RSS文件
-            output/notices.json  # 带WebVPN获取的最新通知数据
-            config/proxy.secrets.json  # 仅用于调试（注意：实际运行后会被后续步骤清理，避免泄露）
+          name: outputs
+          path: output/
