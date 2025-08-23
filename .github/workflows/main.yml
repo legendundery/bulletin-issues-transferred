@@ -81,7 +81,7 @@ jobs:
           RSS_URL: "https://legendundery.github.io/bulletin-issues-transferred/feed.rss" 
         # 改用把 Node 脚本写到单独文件的方式，避免 Shell 解析冲突
         run: |
-          cat << 'EOF' > send-rss-email.js
+          cat << 'EOF' > send-rss-email.cjs
           const Parser = require('rss-parser');
           const nodemailer = require('nodemailer');
           const fs = require('fs');
@@ -145,7 +145,7 @@ jobs:
           })();
           EOF
           
-          node send-rss-email.js
+          node send-rss-email.cjs
 
       - name: Save last sent ID to repository
         run: |
