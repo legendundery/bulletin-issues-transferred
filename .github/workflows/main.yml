@@ -39,6 +39,9 @@ jobs:
 
       # 4. 执行核心任务（WebVPN + RSS 生成）
       - name: Run Update Server
+        env:
+          PROXY_USERNAME: ${{ secrets.PROXY_USERNAME }} 
+          PROXY_PASSWORD: ${{ secrets.PROXY_PASSWORD }}
         run: deno task update-server
         # 权限已在 deno.jsonc 的 tasks 中声明，无需重复加
 
