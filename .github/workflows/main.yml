@@ -81,70 +81,71 @@ jobs:
           RSS_URL: "https://legendundery.github.io/bulletin-issues-transferred/feed.rss" 
         # 改用把 Node 脚本写到单独文件的方式，避免 Shell 解析冲突
         run: |
-          cat << EOF > send-rss-email.js
-          const Parser = require('rss-parser');
-          const nodemailer = require('nodemailer');
-          const fs = require('fs');
-          const path = require('path');
+          cat << 'EOF' > send-rss-email.js
+const Parser = require('rss-parser');
+const nodemailer = require('nodemailer');
+const fs = require('fs');
+const path = require('path');
 
-          const lastSentFile = path.join(__dirname, 'last-sent-id.txt');
-          let lastSentId = '';
-          if (fs.existsSync(lastSentFile)) {
-            lastSentId = fs.readFileSync(lastSentFile, 'utf8').trim();
-          }
+const lastSentFile = path.join(__dirname, 'last-sent-id.txt');
+let lastSentId = '';
+if (fs.existsSync(lastSentFile)) {
+  lastSentId = fs.readFileSync(lastSentFile, 'utf8').trim();
+}
 
-          (async () => {
-            try {
-              const parser = new Parser();
-              const feed = await parser.parseURL(process.env.RSS_URL);
-              const newItems = feed.items
-                .filter(item => item.guid !== lastSentId)
-                .sort((a, b) => new Date(b.isoDate) - new Date(a.isoDate));
+(async () => {
+  try {
+    const parser = new Parser();
+    const feed = await parser.parseURL(process.env.RSS_URL);
+    const newItems = feed.items
+      .filter(item => item.guid !== lastSentId)
+      .sort((a, b) => new Date(b.isoDate) - new Date(a.isoDate));
 
-              if (newItems.length === 0) {
-                console.log('No new RSS items.');
-                return;
-              }
+    if (newItems.length === 0) {
+      console.log('No new RSS items.');
+      return;
+    }
 
-              const emailContent = `
-                <h2>最新更新 (${newItems.length}条)</h2>
-                <ul>
-                  ${newItems.map(item => `
-                    <li>
-                      <h3><a href="${item.link}">${item.title}</a></h3>
-                      <p>${item.contentSnippet || '无摘要'}</p>
-                      <small>发布时间：${new Date(item.isoDate).toLocaleString()}</small>
-                    </li>
-                  `).join('')}
-                </ul>
-              `;
+    const emailContent = `
+      <h2>最新更新 (${newItems.length}条)</h2>
+      <ul>
+        ${newItems.map(item => `
+          <li>
+            <h3><a href="${item.link}">${item.title}</a></h3>
+            <p>${item.contentSnippet || '无摘要'}</p>
+            <small>发布时间：${new Date(item.isoDate).toLocaleString()}</small>
+          </li>
+        `).join('')}
+      </ul>
+    `;
 
-              const transporter = nodemailer.createTransport({
-                host: process.env.SMTP_SERVER,
-                port: process.env.SMTP_PORT,
-                secure: true,
-                auth: {
-                  user: process.env.SMTP_USER,
-                  pass: process.env.SMTP_PASS
-                }
-              });
+    const transporter = nodemailer.createTransport({
+      host: process.env.SMTP_SERVER,
+      port: process.env.SMTP_PORT,
+      secure: true,
+      auth: {
+        user: process.env.SMTP_USER,
+        pass: process.env.SMTP_PASS
+      }
+    });
 
-              await transporter.sendMail({
-                from: `"RSS 通知" <${process.env.SMTP_USER}>`,
-                to: process.env.TO_EMAIL,
-                subject: `【新内容】${feed.title} 更新`,
-                html: emailContent
-              });
+    await transporter.sendMail({
+      from: `"RSS 通知" <${process.env.SMTP_USER}>`,
+      to: process.env.TO_EMAIL,
+      subject: `【新内容】${feed.title} 更新`,
+      html: emailContent
+    });
 
-              fs.writeFileSync(lastSentFile, newItems[0].guid);
-              console.log('Email sent successfully.');
-            } catch (error) {
-              console.error('Error:', error);
-              process.exit(1);
-            }
-          })();
-          EOF
-          node send-rss-email.js
+    fs.writeFileSync(lastSentFile, newItems[0].guid);
+    console.log('Email sent successfully.');
+  } catch (error) {
+    console.error('Error:', error);
+    process.exit(1);
+  }
+})();
+EOF
+
+node send-rss-email.js
 
       - name: Save last sent ID to repository
         run: |
