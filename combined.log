@@ -1,192 +1,125 @@
-{"level":"info","message":"Signed in successfully.","plugin":"proxy","timestamp":"2025-08-28T21:40:07.520Z"}
-{"level":"info","message":"发现54个通知来源。","plugin":"cli","timestamp":"2025-08-28T21:40:11.429Z"}
-{"hook":"fetch_each.before","level":"debug","message":"开始获取“睿信”。","plugin":"cli","timestamp":"2025-08-28T21:40:11.430Z"}
-{"hook":"fetch_each.before","level":"debug","message":"开始获取“求是”。","plugin":"cli","timestamp":"2025-08-28T21:40:11.430Z"}
-{"hook":"fetch_each.before","level":"debug","message":"开始获取“精工”。","plugin":"cli","timestamp":"2025-08-28T21:40:11.430Z"}
-{"hook":"fetch_each.before","level":"debug","message":"开始获取“明德”。","plugin":"cli","timestamp":"2025-08-28T21:40:11.430Z"}
-{"hook":"fetch_each.before","level":"debug","message":"开始获取“经管”。","plugin":"cli","timestamp":"2025-08-28T21:40:11.430Z"}
-{"hook":"fetch_each.before","level":"debug","message":"开始获取“知艺”。","plugin":"cli","timestamp":"2025-08-28T21:40:11.430Z"}
-{"hook":"fetch_each.before","level":"debug","message":"开始获取“特立”。","plugin":"cli","timestamp":"2025-08-28T21:40:11.430Z"}
-{"hook":"fetch_each.before","level":"debug","message":"开始获取“北京书院”。","plugin":"cli","timestamp":"2025-08-28T21:40:11.430Z"}
-{"hook":"fetch_each.before","level":"debug","message":"开始获取“留学生”。","plugin":"cli","timestamp":"2025-08-28T21:40:11.430Z"}
-{"hook":"fetch_each.before","level":"debug","message":"开始获取“马克思”。","plugin":"cli","timestamp":"2025-08-28T21:40:11.431Z"}
-{"hook":"fetch_each.before","level":"debug","message":"开始获取“研究生”。","plugin":"cli","timestamp":"2025-08-28T21:40:11.431Z"}
-{"hook":"fetch_each.before","level":"debug","message":"开始获取“通用”。","plugin":"cli","timestamp":"2025-08-28T21:40:11.431Z"}
-{"hook":"fetch_each.before","level":"debug","message":"开始获取“教务部”。","plugin":"cli","timestamp":"2025-08-28T21:40:11.431Z"}
-{"hook":"fetch_each.before","level":"debug","message":"开始获取“教学中心”。","plugin":"cli","timestamp":"2025-08-28T21:40:11.431Z"}
-{"hook":"fetch_each.before","level":"debug","message":"开始获取“学工部等”。","plugin":"cli","timestamp":"2025-08-28T21:40:11.431Z"}
-{"hook":"fetch_each.before","level":"debug","message":"开始获取“计算机”。","plugin":"cli","timestamp":"2025-08-28T21:40:11.431Z"}
-{"hook":"fetch_each.before","level":"debug","message":"开始获取“学生事务”。","plugin":"cli","timestamp":"2025-08-28T21:40:11.431Z"}
-{"hook":"fetch_each.before","level":"debug","message":"开始获取“创新创业”。","plugin":"cli","timestamp":"2025-08-28T21:40:11.431Z"}
-{"hook":"fetch_each.before","level":"debug","message":"开始获取“资助公示”。","plugin":"cli","timestamp":"2025-08-28T21:40:11.431Z"}
-{"hook":"fetch_each.before","level":"debug","message":"开始获取“大创”。","plugin":"cli","timestamp":"2025-08-28T21:40:11.431Z"}
-{"hook":"fetch_each.before","level":"debug","message":"开始获取“光电”。","plugin":"cli","timestamp":"2025-08-28T21:40:11.431Z"}
-{"hook":"fetch_each.before","level":"debug","message":"开始获取“网信”。","plugin":"cli","timestamp":"2025-08-28T21:40:11.431Z"}
-{"hook":"fetch_each.before","level":"debug","message":"开始获取“人事”。","plugin":"cli","timestamp":"2025-08-28T21:40:11.431Z"}
-{"hook":"fetch_each.before","level":"debug","message":"开始获取“公开数据”。","plugin":"cli","timestamp":"2025-08-28T21:40:11.431Z"}
-{"hook":"fetch_each.before","level":"debug","message":"开始获取“公开通知”。","plugin":"cli","timestamp":"2025-08-28T21:40:11.431Z"}
-{"hook":"fetch_each.before","level":"debug","message":"开始获取“校医院”。","plugin":"cli","timestamp":"2025-08-28T21:40:11.431Z"}
-{"hook":"fetch_each.before","level":"debug","message":"开始获取“国际交流”。","plugin":"cli","timestamp":"2025-08-28T21:40:11.431Z"}
-{"hook":"fetch_each.before","level":"debug","message":"开始获取“新生”。","plugin":"cli","timestamp":"2025-08-28T21:40:11.431Z"}
-{"hook":"fetch_each.before","level":"debug","message":"开始获取“信电”。","plugin":"cli","timestamp":"2025-08-28T21:40:11.431Z"}
-{"hook":"fetch_each.before","level":"debug","message":"开始获取“网安”。","plugin":"cli","timestamp":"2025-08-28T21:40:11.431Z"}
-{"hook":"fetch_each.before","level":"debug","message":"开始获取“集电”。","plugin":"cli","timestamp":"2025-08-28T21:40:11.431Z"}
-{"hook":"fetch_each.before","level":"debug","message":"开始获取“机车”。","plugin":"cli","timestamp":"2025-08-28T21:40:11.431Z"}
-{"hook":"fetch_each.before","level":"debug","message":"开始获取“数学”。","plugin":"cli","timestamp":"2025-08-28T21:40:11.431Z"}
-{"hook":"fetch_each.before","level":"debug","message":"开始获取“物理”。","plugin":"cli","timestamp":"2025-08-28T21:40:11.431Z"}
-{"hook":"fetch_each.before","level":"debug","message":"开始获取“机电”。","plugin":"cli","timestamp":"2025-08-28T21:40:11.431Z"}
-{"hook":"fetch_each.before","level":"debug","message":"开始获取“生命”。","plugin":"cli","timestamp":"2025-08-28T21:40:11.431Z"}
-{"hook":"fetch_each.before","level":"debug","message":"开始获取“宇航”。","plugin":"cli","timestamp":"2025-08-28T21:40:11.431Z"}
-{"hook":"fetch_each.before","level":"debug","message":"开始获取“医学”。","plugin":"cli","timestamp":"2025-08-28T21:40:11.431Z"}
-{"hook":"fetch_each.before","level":"debug","message":"开始获取“自动化”。","plugin":"cli","timestamp":"2025-08-28T21:40:11.431Z"}
-{"hook":"fetch_each.before","level":"debug","message":"开始获取“人文”。","plugin":"cli","timestamp":"2025-08-28T21:40:11.431Z"}
-{"hook":"fetch_each.before","level":"debug","message":"开始获取“人文素质”。","plugin":"cli","timestamp":"2025-08-28T21:40:11.431Z"}
-{"hook":"fetch_each.before","level":"debug","message":"开始获取“课程”。","plugin":"cli","timestamp":"2025-08-28T21:40:11.431Z"}
-{"hook":"fetch_each.before","level":"debug","message":"开始获取“国际组织”。","plugin":"cli","timestamp":"2025-08-28T21:40:11.431Z"}
-{"hook":"fetch_each.before","level":"debug","message":"开始获取“法学”。","plugin":"cli","timestamp":"2025-08-28T21:40:11.431Z"}
-{"hook":"fetch_each.before","level":"debug","message":"开始获取“材料”。","plugin":"cli","timestamp":"2025-08-28T21:40:11.431Z"}
-{"hook":"fetch_each.before","level":"debug","message":"开始获取“外国语”。","plugin":"cli","timestamp":"2025-08-28T21:40:11.431Z"}
-{"hook":"fetch_each.before","level":"debug","message":"开始获取“化学”。","plugin":"cli","timestamp":"2025-08-28T21:40:11.431Z"}
-{"hook":"fetch_each.before","level":"debug","message":"开始获取“招采”。","plugin":"cli","timestamp":"2025-08-28T21:40:11.431Z"}
-{"hook":"fetch_each.before","level":"debug","message":"开始获取“资实”。","plugin":"cli","timestamp":"2025-08-28T21:40:11.431Z"}
-{"hook":"fetch_each.before","level":"debug","message":"开始获取“党政部”。","plugin":"cli","timestamp":"2025-08-28T21:40:11.431Z"}
-{"hook":"fetch_each.before","level":"debug","message":"开始获取“数学实验”。","plugin":"cli","timestamp":"2025-08-28T21:40:11.431Z"}
-{"hook":"fetch_each.before","level":"debug","message":"开始获取“图书馆”。","plugin":"cli","timestamp":"2025-08-28T21:40:11.431Z"}
-{"hook":"fetch_each.before","level":"debug","message":"开始获取“图书馆讲座”。","plugin":"cli","timestamp":"2025-08-28T21:40:11.431Z"}
-{"hook":"fetch_each.before","level":"debug","message":"开始获取“延河”。","plugin":"cli","timestamp":"2025-08-28T21:40:11.431Z"}
-{"level":"http","message":"Request https://century.bit.edu.cn/tz/index.htm with proxy.","plugin":"proxy","timestamp":"2025-08-28T21:40:11.434Z"}
-{"level":"http","message":"Request https://student.bit.edu.cn/tzgg/index.htm with proxy.","plugin":"proxy","timestamp":"2025-08-28T21:40:11.435Z"}
-{"level":"http","message":"Request https://student.bit.edu.cn/xngs/index.blk.htm with proxy.","plugin":"proxy","timestamp":"2025-08-28T21:40:11.435Z"}
-{"level":"http","message":"Request http://cxcy.bit.edu.cn/pt/pt/Notice with proxy.","plugin":"proxy","timestamp":"2025-08-28T21:40:11.435Z"}
-{"level":"http","message":"Request https://dzb.bit.edu.cn/cms/web/notify/search?page=1&status=7&rows=20&order=1&sortFiled=publishDate with proxy.","plugin":"proxy","timestamp":"2025-08-28T21:40:11.436Z"}
-{"level":"http","message":"Request http://mec.bit.edu.cn/pcmd/ajax.php?vpn-12-o1-mec.bit.edu.cn&act=getmanage_nologin&w=新闻公告 with proxy.","plugin":"proxy","timestamp":"2025-08-28T21:40:11.437Z"}
-{"hook":"fetch_each.after","level":"debug","message":"结束获取“党政部”。","plugin":"cli","timestamp":"2025-08-28T21:40:12.431Z"}
-{"hook":"fetch_each.error","level":"error","message":"TypeError: error sending request for url (https://rw.bit.edu.cn/tzgg/index.htm): client error (Connect): tcp connect error: Connection refused (os error 111): Connection refused (os error 111)","plugin":"cli","timestamp":"2025-08-28T21:40:12.558Z"}
-{"hook":"fetch_each.error","level":"error","message":"TypeError: error sending request for url (https://rw.bit.edu.cn/rwszjyb/tzxw/index.htm): client error (Connect): tcp connect error: Connection refused (os error 111): Connection refused (os error 111)","plugin":"cli","timestamp":"2025-08-28T21:40:12.558Z"}
-{"hook":"fetch_each.after","level":"debug","message":"结束获取“人文”。","plugin":"cli","timestamp":"2025-08-28T21:40:12.558Z"}
-{"hook":"fetch_each.after","level":"debug","message":"结束获取“人文素质”。","plugin":"cli","timestamp":"2025-08-28T21:40:12.559Z"}
-{"hook":"fetch_each.after","level":"debug","message":"结束获取“大创”。","plugin":"cli","timestamp":"2025-08-28T21:40:12.780Z"}
-{"hook":"fetch_each.after","level":"debug","message":"结束获取“数学实验”。","plugin":"cli","timestamp":"2025-08-28T21:40:12.839Z"}
-{"hook":"fetch_each.after","level":"debug","message":"结束获取“图书馆讲座”。","plugin":"cli","timestamp":"2025-08-28T21:40:13.025Z"}
-{"hook":"fetch_each.after","level":"debug","message":"结束获取“图书馆”。","plugin":"cli","timestamp":"2025-08-28T21:40:13.042Z"}
-{"hook":"fetch_each.after","level":"debug","message":"结束获取“延河”。","plugin":"cli","timestamp":"2025-08-28T21:40:13.148Z"}
-{"level":"warn","message":"未从“学生事务”获取到任何通知。将忽略。","plugin":"cli","timestamp":"2025-08-28T21:40:18.625Z"}
-{"hook":"fetch_each.after","level":"debug","message":"结束获取“学生事务”。","plugin":"cli","timestamp":"2025-08-28T21:40:18.625Z"}
-{"level":"warn","message":"未从“资助公示”获取到任何通知。将忽略。","plugin":"cli","timestamp":"2025-08-28T21:40:18.631Z"}
-{"hook":"fetch_each.after","level":"debug","message":"结束获取“资助公示”。","plugin":"cli","timestamp":"2025-08-28T21:40:18.631Z"}
-{"level":"http","message":"Time is out when requesting “https://www.bit.edu.cn/rcpy_sjb/blsy87/rxsygb/tzggsy2/index.htm”. Retry later.","plugin":"retry","timestamp":"2025-08-28T21:40:21.440Z"}
-{"level":"http","message":"Time is out when requesting “https://www.bit.edu.cn/rcpy_sjb/blsy87/qssygb/tzggsy3/index.htm”. Retry later.","plugin":"retry","timestamp":"2025-08-28T21:40:21.440Z"}
-{"level":"http","message":"Time is out when requesting “https://www.bit.edu.cn/rcpy_sjb/blsy87/jgsygb/tzggsy/index.htm”. Retry later.","plugin":"retry","timestamp":"2025-08-28T21:40:21.440Z"}
-{"level":"http","message":"Time is out when requesting “https://mingde.bit.edu.cn/tzgg/index.htm”. Retry later.","plugin":"retry","timestamp":"2025-08-28T21:40:21.440Z"}
-{"level":"http","message":"Time is out when requesting “https://www.bit.edu.cn/tzgg17/zxtz/index.htm”. Retry later.","plugin":"retry","timestamp":"2025-08-28T21:40:21.441Z"}
-{"level":"http","message":"Time is out when requesting “https://www.bit.edu.cn/gbxxgk/gbgljg/xscxcysjzx/index.htm”. Retry later.","plugin":"retry","timestamp":"2025-08-28T21:40:21.441Z"}
-{"level":"http","message":"Time is out when requesting “https://xxgk.bit.edu.cn/zxgkxx/index.htm”. Retry later.","plugin":"retry","timestamp":"2025-08-28T21:40:21.441Z"}
-{"level":"http","message":"Time is out when requesting “https://xxgk.bit.edu.cn/tzgg/index.htm”. Retry later.","plugin":"retry","timestamp":"2025-08-28T21:40:21.441Z"}
-{"level":"http","message":"Time is out when requesting “https://me.bit.edu.cn/tzgg/index.htm”. Retry later.","plugin":"retry","timestamp":"2025-08-28T21:40:21.442Z"}
-{"level":"http","message":"Time is out when requesting “https://physics.bit.edu.cn/tzgg4/index.htm”. Retry later.","plugin":"retry","timestamp":"2025-08-28T21:40:21.442Z"}
-{"level":"http","message":"Time is out when requesting “https://law.bit.edu.cn/tzgg/xsbd/index.htm”. Retry later.","plugin":"retry","timestamp":"2025-08-28T21:40:21.442Z"}
-{"hook":"fetch_each.error","level":"error","message":"TypeError: error sending request from 10.1.0.81:58412 for https://sie.bit.edu.cn/index.htm (114.247.56.160:443): client error (SendRequest): connection error: Connection reset by peer (os error 104)","plugin":"cli","timestamp":"2025-08-28T21:40:25.996Z"}
-{"hook":"fetch_each.after","level":"debug","message":"结束获取“信电”。","plugin":"cli","timestamp":"2025-08-28T21:40:25.996Z"}
-{"hook":"fetch_each.error","level":"error","message":"TypeError: error sending request from 10.1.0.81:58440 for https://design.bit.edu.cn/zs/tz2/index.htm (114.247.56.160:443): client error (SendRequest): connection error: Connection reset by peer (os error 104)","plugin":"cli","timestamp":"2025-08-28T21:40:26.000Z"}
-{"hook":"fetch_each.after","level":"debug","message":"结束获取“知艺”。","plugin":"cli","timestamp":"2025-08-28T21:40:26.000Z"}
-{"hook":"fetch_each.error","level":"error","message":"TypeError: error sending request from 10.1.0.81:58470 for https://cst.bit.edu.cn/xxfw/tzgg/index.htm (114.247.56.160:443): client error (SendRequest): connection error: Connection reset by peer (os error 104)","plugin":"cli","timestamp":"2025-08-28T21:40:26.014Z"}
-{"hook":"fetch_each.after","level":"debug","message":"结束获取“网安”。","plugin":"cli","timestamp":"2025-08-28T21:40:26.015Z"}
-{"hook":"fetch_each.error","level":"error","message":"TypeError: error sending request from 10.1.0.81:58456 for https://hi.bit.edu.cn/rxbd/dttzyx/index.htm (114.247.56.160:443): client error (SendRequest): connection error: Connection reset by peer (os error 104)","plugin":"cli","timestamp":"2025-08-28T21:40:26.023Z"}
-{"hook":"fetch_each.after","level":"debug","message":"结束获取“新生”。","plugin":"cli","timestamp":"2025-08-28T21:40:26.023Z"}
-{"hook":"fetch_each.error","level":"error","message":"TypeError: error sending request from 10.1.0.81:58516 for https://jxzx.bit.edu.cn/jxyx/index.htm (114.247.56.160:443): client error (SendRequest): connection error: Connection reset by peer (os error 104)","plugin":"cli","timestamp":"2025-08-28T21:40:26.023Z"}
-{"hook":"fetch_each.after","level":"debug","message":"结束获取“课程”。","plugin":"cli","timestamp":"2025-08-28T21:40:26.024Z"}
-{"hook":"fetch_each.error","level":"error","message":"TypeError: error sending request from 10.1.0.81:58502 for https://itc.bit.edu.cn/tzgg/index.htm (114.247.56.160:443): client error (SendRequest): connection error: Connection reset by peer (os error 104)","plugin":"cli","timestamp":"2025-08-28T21:40:26.030Z"}
-{"hook":"fetch_each.after","level":"debug","message":"结束获取“网信”。","plugin":"cli","timestamp":"2025-08-28T21:40:26.030Z"}
-{"hook":"fetch_each.error","level":"error","message":"TypeError: error sending request from 10.1.0.81:58488 for https://abroad.bit.edu.cn/xwtz/tzgg/index.htm (114.247.56.160:443): client error (SendRequest): connection error: Connection reset by peer (os error 104)","plugin":"cli","timestamp":"2025-08-28T21:40:26.034Z"}
-{"hook":"fetch_each.after","level":"debug","message":"结束获取“国际交流”。","plugin":"cli","timestamp":"2025-08-28T21:40:26.035Z"}
-{"hook":"fetch_each.error","level":"error","message":"TypeError: error sending request from 10.1.0.81:58478 for https://renshichu.bit.edu.cn/gbtzgg/index.htm (114.247.56.160:443): client error (SendRequest): connection error: Connection reset by peer (os error 104)","plugin":"cli","timestamp":"2025-08-28T21:40:26.038Z"}
-{"hook":"fetch_each.after","level":"debug","message":"结束获取“人事”。","plugin":"cli","timestamp":"2025-08-28T21:40:26.038Z"}
-{"hook":"fetch_each.error","level":"error","message":"TypeError: error sending request from 10.1.0.81:58524 for https://isc.bit.edu.cn/eventsnotices/index.htm (114.247.56.160:443): client error (SendRequest): connection error: Connection reset by peer (os error 104)","plugin":"cli","timestamp":"2025-08-28T21:40:26.041Z"}
-{"hook":"fetch_each.after","level":"debug","message":"结束获取“留学生”。","plugin":"cli","timestamp":"2025-08-28T21:40:26.041Z"}
-{"hook":"fetch_each.error","level":"error","message":"TypeError: error sending request from 10.1.0.81:58518 for https://grd.bit.edu.cn/tzgg1/index.htm (114.247.56.160:443): client error (SendRequest): connection error: Connection reset by peer (os error 104)","plugin":"cli","timestamp":"2025-08-28T21:40:26.042Z"}
-{"hook":"fetch_each.after","level":"debug","message":"结束获取“研究生”。","plugin":"cli","timestamp":"2025-08-28T21:40:26.042Z"}
-{"hook":"fetch_each.error","level":"error","message":"TypeError: error sending request from 10.1.0.81:58528 for https://jxzx.bit.edu.cn/tzgg/index.htm (114.247.56.160:443): client error (SendRequest): connection error: Connection reset by peer (os error 104)","plugin":"cli","timestamp":"2025-08-28T21:40:26.043Z"}
-{"hook":"fetch_each.after","level":"debug","message":"结束获取“教学中心”。","plugin":"cli","timestamp":"2025-08-28T21:40:26.043Z"}
-{"hook":"fetch_each.error","level":"error","message":"TypeError: error sending request from 10.1.0.81:58542 for https://sme.bit.edu.cn/gbxwzx/tzgg/index.htm (114.247.56.160:443): client error (SendRequest): connection error: Connection reset by peer (os error 104)","plugin":"cli","timestamp":"2025-08-28T21:40:26.050Z"}
-{"hook":"fetch_each.after","level":"debug","message":"结束获取“经管”。","plugin":"cli","timestamp":"2025-08-28T21:40:26.050Z"}
-{"hook":"fetch_each.error","level":"error","message":"TypeError: error sending request from 10.1.0.81:58554 for https://ls.bit.edu.cn/xytz/index.htm (114.247.56.160:443): client error (SendRequest): connection error: Connection reset by peer (os error 104)","plugin":"cli","timestamp":"2025-08-28T21:40:26.051Z"}
-{"hook":"fetch_each.after","level":"debug","message":"结束获取“生命”。","plugin":"cli","timestamp":"2025-08-28T21:40:26.051Z"}
-{"hook":"fetch_each.error","level":"error","message":"TypeError: error sending request from 10.1.0.81:58606 for https://smen.bit.edu.cn/tzgg/index.htm (114.247.56.160:443): client error (SendRequest): connection error: Connection reset by peer (os error 104)","plugin":"cli","timestamp":"2025-08-28T21:40:26.051Z"}
-{"hook":"fetch_each.after","level":"debug","message":"结束获取“机电”。","plugin":"cli","timestamp":"2025-08-28T21:40:26.051Z"}
-{"hook":"fetch_each.error","level":"error","message":"TypeError: error sending request from 10.1.0.81:58572 for https://math.bit.edu.cn/tzgg/index.htm (114.247.56.160:443): client error (SendRequest): connection error: Connection reset by peer (os error 104)","plugin":"cli","timestamp":"2025-08-28T21:40:26.063Z"}
-{"hook":"fetch_each.after","level":"debug","message":"结束获取“数学”。","plugin":"cli","timestamp":"2025-08-28T21:40:26.063Z"}
-{"hook":"fetch_each.error","level":"error","message":"TypeError: error sending request from 10.1.0.81:58560 for https://xuteli.bit.edu.cn/tzgg/index.htm (114.247.56.160:443): client error (SendRequest): connection error: Connection reset by peer (os error 104)","plugin":"cli","timestamp":"2025-08-28T21:40:26.065Z"}
-{"hook":"fetch_each.after","level":"debug","message":"结束获取“特立”。","plugin":"cli","timestamp":"2025-08-28T21:40:26.065Z"}
-{"hook":"fetch_each.error","level":"error","message":"TypeError: error sending request from 10.1.0.81:58580 for https://marx.bit.edu.cn/tzgg/index.htm (114.247.56.160:443): client error (SendRequest): connection error: Connection reset by peer (os error 104)","plugin":"cli","timestamp":"2025-08-28T21:40:26.072Z"}
-{"hook":"fetch_each.after","level":"debug","message":"结束获取“马克思”。","plugin":"cli","timestamp":"2025-08-28T21:40:26.072Z"}
-{"hook":"fetch_each.error","level":"error","message":"TypeError: error sending request from 10.1.0.81:58596 for https://xyy.bit.edu.cn/tzgg/index.htm (114.247.56.160:443): client error (SendRequest): connection error: Connection reset by peer (os error 104)","plugin":"cli","timestamp":"2025-08-28T21:40:26.073Z"}
-{"hook":"fetch_each.after","level":"debug","message":"结束获取“校医院”。","plugin":"cli","timestamp":"2025-08-28T21:40:26.073Z"}
-{"hook":"fetch_each.error","level":"error","message":"TypeError: error sending request from 10.1.0.81:58622 for https://opt.bit.edu.cn/tzgg2/tzgg/index.htm (114.247.56.160:443): client error (SendRequest): connection error: Connection reset by peer (os error 104)","plugin":"cli","timestamp":"2025-08-28T21:40:26.081Z"}
-{"hook":"fetch_each.after","level":"debug","message":"结束获取“光电”。","plugin":"cli","timestamp":"2025-08-28T21:40:26.081Z"}
-{"hook":"fetch_each.error","level":"error","message":"TypeError: error sending request from 10.1.0.81:58626 for https://sgg.bit.edu.cn/tzgg/index.htm (114.247.56.160:443): client error (SendRequest): connection error: Connection reset by peer (os error 104)","plugin":"cli","timestamp":"2025-08-28T21:40:26.215Z"}
-{"hook":"fetch_each.after","level":"debug","message":"结束获取“国际组织”。","plugin":"cli","timestamp":"2025-08-28T21:40:26.215Z"}
-{"hook":"fetch_each.error","level":"error","message":"TypeError: error sending request from 10.1.0.81:58686 for https://ac.bit.edu.cn/tzgg/index.htm (114.247.56.160:443): client error (SendRequest): connection error: Connection reset by peer (os error 104)","plugin":"cli","timestamp":"2025-08-28T21:40:26.230Z"}
-{"hook":"fetch_each.after","level":"debug","message":"结束获取“自动化”。","plugin":"cli","timestamp":"2025-08-28T21:40:26.230Z"}
-{"hook":"fetch_each.error","level":"error","message":"TypeError: error sending request from 10.1.0.81:58642 for https://smt.bit.edu.cn/tzgg/index.htm (114.247.56.160:443): client error (SendRequest): connection error: Connection reset by peer (os error 104)","plugin":"cli","timestamp":"2025-08-28T21:40:26.231Z"}
-{"hook":"fetch_each.after","level":"debug","message":"结束获取“医学”。","plugin":"cli","timestamp":"2025-08-28T21:40:26.232Z"}
-{"hook":"fetch_each.error","level":"error","message":"TypeError: error sending request from 10.1.0.81:58662 for https://cce.bit.edu.cn/tzgg/index.htm (114.247.56.160:443): client error (SendRequest): connection error: Connection reset by peer (os error 104)","plugin":"cli","timestamp":"2025-08-28T21:40:26.233Z"}
-{"hook":"fetch_each.after","level":"debug","message":"结束获取“化学”。","plugin":"cli","timestamp":"2025-08-28T21:40:26.233Z"}
-{"hook":"fetch_each.error","level":"error","message":"TypeError: error sending request from 10.1.0.81:58644 for https://sfl.bit.edu.cn/tzgg/index.htm (114.247.56.160:443): client error (SendRequest): connection error: Connection reset by peer (os error 104)","plugin":"cli","timestamp":"2025-08-28T21:40:26.238Z"}
-{"hook":"fetch_each.after","level":"debug","message":"结束获取“外国语”。","plugin":"cli","timestamp":"2025-08-28T21:40:26.238Z"}
-{"hook":"fetch_each.error","level":"error","message":"TypeError: error sending request from 10.1.0.81:58660 for https://mse.bit.edu.cn/tzgg/index.htm (114.247.56.160:443): client error (SendRequest): connection error: Connection reset by peer (os error 104)","plugin":"cli","timestamp":"2025-08-28T21:40:26.239Z"}
-{"hook":"fetch_each.after","level":"debug","message":"结束获取“材料”。","plugin":"cli","timestamp":"2025-08-28T21:40:26.239Z"}
-{"hook":"fetch_each.error","level":"error","message":"TypeError: error sending request from 10.1.0.81:58676 for https://sae.bit.edu.cn/tzgggb/index.htm (114.247.56.160:443): client error (SendRequest): connection error: Connection reset by peer (os error 104)","plugin":"cli","timestamp":"2025-08-28T21:40:26.246Z"}
-{"hook":"fetch_each.after","level":"debug","message":"结束获取“宇航”。","plugin":"cli","timestamp":"2025-08-28T21:40:26.246Z"}
-{"hook":"fetch_each.error","level":"error","message":"TypeError: error sending request from 10.1.0.81:58702 for https://zsc.bit.edu.cn/xwgg/tzgg/index.htm (114.247.56.160:443): client error (SendRequest): connection error: Connection reset by peer (os error 104)","plugin":"cli","timestamp":"2025-08-28T21:40:26.268Z"}
-{"hook":"fetch_each.after","level":"debug","message":"结束获取“资实”。","plugin":"cli","timestamp":"2025-08-28T21:40:26.268Z"}
-{"hook":"fetch_each.error","level":"error","message":"TypeError: error sending request from 10.1.0.81:58704 for https://bit.edu.cn/tzgg17/zcgg/index.htm (114.247.56.160:443): client error (SendRequest): connection error: Connection reset by peer (os error 104)","plugin":"cli","timestamp":"2025-08-28T21:40:26.476Z"}
-{"hook":"fetch_each.after","level":"debug","message":"结束获取“招采”。","plugin":"cli","timestamp":"2025-08-28T21:40:26.476Z"}
-{"hook":"fetch_each.error","level":"error","message":"TypeError: error sending request from 10.1.0.81:58712 for https://jwb.bit.edu.cn/tzgg/index.htm (114.247.56.160:443): client error (SendRequest): connection error: Connection reset by peer (os error 104)","plugin":"cli","timestamp":"2025-08-28T21:40:26.566Z"}
-{"hook":"fetch_each.after","level":"debug","message":"结束获取“教务部”。","plugin":"cli","timestamp":"2025-08-28T21:40:26.566Z"}
-{"level":"http","message":"Time is out when requesting “https://cs.bit.edu.cn/tzgg/index.htm”. Retry later.","plugin":"retry","timestamp":"2025-08-28T21:40:29.086Z"}
-{"level":"http","message":"Time is out when requesting “https://bj.bit.edu.cn/tzgg/index.htm”. Retry later.","plugin":"retry","timestamp":"2025-08-28T21:40:29.089Z"}
-{"level":"http","message":"Time is out when requesting “https://ice.bit.edu.cn/xxfw/tzgg1/index.htm”. Retry later.","plugin":"retry","timestamp":"2025-08-28T21:40:29.093Z"}
-{"level":"http","message":"Retry “https://www.bit.edu.cn/rcpy_sjb/blsy87/rxsygb/tzggsy2/index.htm”.","plugin":"retry","timestamp":"2025-08-28T21:40:31.441Z"}
-{"level":"http","message":"Retry “https://www.bit.edu.cn/rcpy_sjb/blsy87/qssygb/tzggsy3/index.htm”.","plugin":"retry","timestamp":"2025-08-28T21:40:31.442Z"}
-{"level":"http","message":"Retry “https://www.bit.edu.cn/rcpy_sjb/blsy87/jgsygb/tzggsy/index.htm”.","plugin":"retry","timestamp":"2025-08-28T21:40:31.442Z"}
-{"level":"http","message":"Retry “https://mingde.bit.edu.cn/tzgg/index.htm”.","plugin":"retry","timestamp":"2025-08-28T21:40:31.442Z"}
-{"level":"http","message":"Retry “https://www.bit.edu.cn/tzgg17/zxtz/index.htm”.","plugin":"retry","timestamp":"2025-08-28T21:40:31.443Z"}
-{"level":"http","message":"Retry “https://www.bit.edu.cn/gbxxgk/gbgljg/xscxcysjzx/index.htm”.","plugin":"retry","timestamp":"2025-08-28T21:40:31.443Z"}
-{"level":"http","message":"Retry “https://xxgk.bit.edu.cn/zxgkxx/index.htm”.","plugin":"retry","timestamp":"2025-08-28T21:40:31.443Z"}
-{"level":"http","message":"Retry “https://xxgk.bit.edu.cn/tzgg/index.htm”.","plugin":"retry","timestamp":"2025-08-28T21:40:31.443Z"}
-{"level":"http","message":"Retry “https://me.bit.edu.cn/tzgg/index.htm”.","plugin":"retry","timestamp":"2025-08-28T21:40:31.444Z"}
-{"level":"http","message":"Retry “https://physics.bit.edu.cn/tzgg4/index.htm”.","plugin":"retry","timestamp":"2025-08-28T21:40:31.444Z"}
-{"level":"http","message":"Retry “https://law.bit.edu.cn/tzgg/xsbd/index.htm”.","plugin":"retry","timestamp":"2025-08-28T21:40:31.444Z"}
-{"hook":"fetch_each.after","level":"debug","message":"结束获取“通用”。","plugin":"cli","timestamp":"2025-08-28T21:40:33.246Z"}
-{"hook":"fetch_each.after","level":"debug","message":"结束获取“创新创业”。","plugin":"cli","timestamp":"2025-08-28T21:40:33.269Z"}
-{"level":"http","message":"Retry “https://cs.bit.edu.cn/tzgg/index.htm”.","plugin":"retry","timestamp":"2025-08-28T21:40:39.088Z"}
-{"level":"http","message":"Retry “https://bj.bit.edu.cn/tzgg/index.htm”.","plugin":"retry","timestamp":"2025-08-28T21:40:39.090Z"}
-{"level":"http","message":"Retry “https://ice.bit.edu.cn/xxfw/tzgg1/index.htm”.","plugin":"retry","timestamp":"2025-08-28T21:40:39.094Z"}
-{"level":"error","message":"访问“睿信”（Timeout）超时，可能因为访问太频繁。将忽略。","plugin":"cli","timestamp":"2025-08-28T21:40:41.443Z"}
-{"hook":"fetch_each.after","level":"debug","message":"结束获取“睿信”。","plugin":"cli","timestamp":"2025-08-28T21:40:41.443Z"}
-{"level":"error","message":"访问“求是”（Timeout）超时，可能因为访问太频繁。将忽略。","plugin":"cli","timestamp":"2025-08-28T21:40:41.443Z"}
-{"hook":"fetch_each.after","level":"debug","message":"结束获取“求是”。","plugin":"cli","timestamp":"2025-08-28T21:40:41.443Z"}
-{"level":"error","message":"访问“精工”（Timeout）超时，可能因为访问太频繁。将忽略。","plugin":"cli","timestamp":"2025-08-28T21:40:41.444Z"}
-{"hook":"fetch_each.after","level":"debug","message":"结束获取“精工”。","plugin":"cli","timestamp":"2025-08-28T21:40:41.444Z"}
-{"hook":"fetch_each.error","level":"error","message":"TypeError: error sending request from 10.1.0.81:37212 for https://mingde.bit.edu.cn/tzgg/index.htm (114.247.56.160:443): client error (SendRequest): connection error: Connection reset by peer (os error 104)","plugin":"cli","timestamp":"2025-08-28T21:40:45.579Z"}
-{"hook":"fetch_each.after","level":"debug","message":"结束获取“明德”。","plugin":"cli","timestamp":"2025-08-28T21:40:45.579Z"}
-{"hook":"fetch_each.error","level":"error","message":"TypeError: error sending request from 10.1.0.81:37226 for https://law.bit.edu.cn/tzgg/xsbd/index.htm (114.247.56.160:443): client error (SendRequest): connection error: Connection reset by peer (os error 104)","plugin":"cli","timestamp":"2025-08-28T21:40:45.579Z"}
-{"hook":"fetch_each.after","level":"debug","message":"结束获取“法学”。","plugin":"cli","timestamp":"2025-08-28T21:40:45.580Z"}
-{"hook":"fetch_each.error","level":"error","message":"TypeError: error sending request from 10.1.0.81:37202 for https://me.bit.edu.cn/tzgg/index.htm (114.247.56.160:443): client error (SendRequest): connection error: Connection reset by peer (os error 104)","plugin":"cli","timestamp":"2025-08-28T21:40:45.590Z"}
-{"hook":"fetch_each.after","level":"debug","message":"结束获取“机车”。","plugin":"cli","timestamp":"2025-08-28T21:40:45.591Z"}
-{"hook":"fetch_each.error","level":"error","message":"TypeError: error sending request from 10.1.0.81:37206 for https://xxgk.bit.edu.cn/zxgkxx/index.htm (114.247.56.160:443): client error (SendRequest): connection error: Connection reset by peer (os error 104)","plugin":"cli","timestamp":"2025-08-28T21:40:45.595Z"}
-{"hook":"fetch_each.after","level":"debug","message":"结束获取“公开数据”。","plugin":"cli","timestamp":"2025-08-28T21:40:45.595Z"}
-{"hook":"fetch_each.error","level":"error","message":"TypeError: error sending request from 10.1.0.81:37228 for https://xxgk.bit.edu.cn/tzgg/index.htm (114.247.56.160:443): client error (SendRequest): connection error: Connection reset by peer (os error 104)","plugin":"cli","timestamp":"2025-08-28T21:40:45.602Z"}
-{"hook":"fetch_each.after","level":"debug","message":"结束获取“公开通知”。","plugin":"cli","timestamp":"2025-08-28T21:40:45.602Z"}
-{"hook":"fetch_each.error","level":"error","message":"TypeError: error sending request from 10.1.0.81:37198 for https://physics.bit.edu.cn/tzgg4/index.htm (114.247.56.160:443): client error (SendRequest): connection error: Connection reset by peer (os error 104)","plugin":"cli","timestamp":"2025-08-28T21:40:45.604Z"}
-{"hook":"fetch_each.after","level":"debug","message":"结束获取“物理”。","plugin":"cli","timestamp":"2025-08-28T21:40:45.604Z"}
-{"hook":"fetch_each.after","level":"debug","message":"结束获取“学工部等”。","plugin":"cli","timestamp":"2025-08-28T21:40:50.528Z"}
-{"hook":"fetch_each.error","level":"error","message":"TypeError: error sending request from 10.1.0.81:37268 for https://cs.bit.edu.cn/tzgg/index.htm (114.247.56.160:443): client error (SendRequest): connection error: Connection reset by peer (os error 104)","plugin":"cli","timestamp":"2025-08-28T21:40:53.239Z"}
-{"hook":"fetch_each.after","level":"debug","message":"结束获取“计算机”。","plugin":"cli","timestamp":"2025-08-28T21:40:53.240Z"}
-{"level":"error","message":"访问“集电”（Timeout）超时，可能因为访问太频繁。将忽略。","plugin":"cli","timestamp":"2025-08-28T21:40:56.324Z"}
-{"hook":"fetch_each.after","level":"debug","message":"结束获取“集电”。","plugin":"cli","timestamp":"2025-08-28T21:40:56.324Z"}
-{"level":"error","message":"访问“北京书院”（Timeout）超时，可能因为访问太频繁。将忽略。","plugin":"cli","timestamp":"2025-08-28T21:40:56.324Z"}
-{"hook":"fetch_each.after","level":"debug","message":"结束获取“北京书院”。","plugin":"cli","timestamp":"2025-08-28T21:40:56.324Z"}
-{"level":"warn","message":"未找到以往通知，您可能是第一次运行。将忽略。","timestamp":"2025-08-28T21:40:56.328Z"}
-{"level":"info","message":"已按需保存到“output/notices.json”。","plugin":"cli","timestamp":"2025-08-28T21:40:56.329Z"}
-{"level":"info","message":"已保存到“output/feed.rss”。","plugin":"rss","timestamp":"2025-08-28T21:40:56.331Z"}
+{"level":"info","message":"Signed in successfully.","plugin":"proxy","timestamp":"2025-08-28T22:22:10.003Z"}
+{"level":"info","message":"发现54个通知来源。","plugin":"cli","timestamp":"2025-08-28T22:22:12.909Z"}
+{"hook":"fetch_each.before","level":"debug","message":"开始获取“睿信”。","plugin":"cli","timestamp":"2025-08-28T22:22:12.910Z"}
+{"hook":"fetch_each.before","level":"debug","message":"开始获取“求是”。","plugin":"cli","timestamp":"2025-08-28T22:22:12.910Z"}
+{"hook":"fetch_each.before","level":"debug","message":"开始获取“精工”。","plugin":"cli","timestamp":"2025-08-28T22:22:12.910Z"}
+{"hook":"fetch_each.before","level":"debug","message":"开始获取“明德”。","plugin":"cli","timestamp":"2025-08-28T22:22:12.910Z"}
+{"hook":"fetch_each.before","level":"debug","message":"开始获取“经管”。","plugin":"cli","timestamp":"2025-08-28T22:22:12.910Z"}
+{"hook":"fetch_each.before","level":"debug","message":"开始获取“知艺”。","plugin":"cli","timestamp":"2025-08-28T22:22:12.910Z"}
+{"hook":"fetch_each.before","level":"debug","message":"开始获取“特立”。","plugin":"cli","timestamp":"2025-08-28T22:22:12.910Z"}
+{"hook":"fetch_each.before","level":"debug","message":"开始获取“北京书院”。","plugin":"cli","timestamp":"2025-08-28T22:22:12.910Z"}
+{"hook":"fetch_each.before","level":"debug","message":"开始获取“留学生”。","plugin":"cli","timestamp":"2025-08-28T22:22:12.910Z"}
+{"hook":"fetch_each.before","level":"debug","message":"开始获取“马克思”。","plugin":"cli","timestamp":"2025-08-28T22:22:12.910Z"}
+{"hook":"fetch_each.before","level":"debug","message":"开始获取“研究生”。","plugin":"cli","timestamp":"2025-08-28T22:22:12.910Z"}
+{"hook":"fetch_each.before","level":"debug","message":"开始获取“通用”。","plugin":"cli","timestamp":"2025-08-28T22:22:12.910Z"}
+{"hook":"fetch_each.before","level":"debug","message":"开始获取“教务部”。","plugin":"cli","timestamp":"2025-08-28T22:22:12.910Z"}
+{"hook":"fetch_each.before","level":"debug","message":"开始获取“教学中心”。","plugin":"cli","timestamp":"2025-08-28T22:22:12.910Z"}
+{"hook":"fetch_each.before","level":"debug","message":"开始获取“学工部等”。","plugin":"cli","timestamp":"2025-08-28T22:22:12.910Z"}
+{"hook":"fetch_each.before","level":"debug","message":"开始获取“计算机”。","plugin":"cli","timestamp":"2025-08-28T22:22:12.911Z"}
+{"hook":"fetch_each.before","level":"debug","message":"开始获取“学生事务”。","plugin":"cli","timestamp":"2025-08-28T22:22:12.911Z"}
+{"hook":"fetch_each.before","level":"debug","message":"开始获取“创新创业”。","plugin":"cli","timestamp":"2025-08-28T22:22:12.911Z"}
+{"hook":"fetch_each.before","level":"debug","message":"开始获取“资助公示”。","plugin":"cli","timestamp":"2025-08-28T22:22:12.911Z"}
+{"hook":"fetch_each.before","level":"debug","message":"开始获取“大创”。","plugin":"cli","timestamp":"2025-08-28T22:22:12.911Z"}
+{"hook":"fetch_each.before","level":"debug","message":"开始获取“光电”。","plugin":"cli","timestamp":"2025-08-28T22:22:12.911Z"}
+{"hook":"fetch_each.before","level":"debug","message":"开始获取“网信”。","plugin":"cli","timestamp":"2025-08-28T22:22:12.911Z"}
+{"hook":"fetch_each.before","level":"debug","message":"开始获取“人事”。","plugin":"cli","timestamp":"2025-08-28T22:22:12.911Z"}
+{"hook":"fetch_each.before","level":"debug","message":"开始获取“公开数据”。","plugin":"cli","timestamp":"2025-08-28T22:22:12.911Z"}
+{"hook":"fetch_each.before","level":"debug","message":"开始获取“公开通知”。","plugin":"cli","timestamp":"2025-08-28T22:22:12.911Z"}
+{"hook":"fetch_each.before","level":"debug","message":"开始获取“校医院”。","plugin":"cli","timestamp":"2025-08-28T22:22:12.911Z"}
+{"hook":"fetch_each.before","level":"debug","message":"开始获取“国际交流”。","plugin":"cli","timestamp":"2025-08-28T22:22:12.911Z"}
+{"hook":"fetch_each.before","level":"debug","message":"开始获取“新生”。","plugin":"cli","timestamp":"2025-08-28T22:22:12.911Z"}
+{"hook":"fetch_each.before","level":"debug","message":"开始获取“信电”。","plugin":"cli","timestamp":"2025-08-28T22:22:12.911Z"}
+{"hook":"fetch_each.before","level":"debug","message":"开始获取“网安”。","plugin":"cli","timestamp":"2025-08-28T22:22:12.911Z"}
+{"hook":"fetch_each.before","level":"debug","message":"开始获取“集电”。","plugin":"cli","timestamp":"2025-08-28T22:22:12.911Z"}
+{"hook":"fetch_each.before","level":"debug","message":"开始获取“机车”。","plugin":"cli","timestamp":"2025-08-28T22:22:12.911Z"}
+{"hook":"fetch_each.before","level":"debug","message":"开始获取“数学”。","plugin":"cli","timestamp":"2025-08-28T22:22:12.911Z"}
+{"hook":"fetch_each.before","level":"debug","message":"开始获取“物理”。","plugin":"cli","timestamp":"2025-08-28T22:22:12.911Z"}
+{"hook":"fetch_each.before","level":"debug","message":"开始获取“机电”。","plugin":"cli","timestamp":"2025-08-28T22:22:12.911Z"}
+{"hook":"fetch_each.before","level":"debug","message":"开始获取“生命”。","plugin":"cli","timestamp":"2025-08-28T22:22:12.911Z"}
+{"hook":"fetch_each.before","level":"debug","message":"开始获取“宇航”。","plugin":"cli","timestamp":"2025-08-28T22:22:12.911Z"}
+{"hook":"fetch_each.before","level":"debug","message":"开始获取“医学”。","plugin":"cli","timestamp":"2025-08-28T22:22:12.911Z"}
+{"hook":"fetch_each.before","level":"debug","message":"开始获取“自动化”。","plugin":"cli","timestamp":"2025-08-28T22:22:12.911Z"}
+{"hook":"fetch_each.before","level":"debug","message":"开始获取“人文”。","plugin":"cli","timestamp":"2025-08-28T22:22:12.911Z"}
+{"hook":"fetch_each.before","level":"debug","message":"开始获取“人文素质”。","plugin":"cli","timestamp":"2025-08-28T22:22:12.911Z"}
+{"hook":"fetch_each.before","level":"debug","message":"开始获取“课程”。","plugin":"cli","timestamp":"2025-08-28T22:22:12.911Z"}
+{"hook":"fetch_each.before","level":"debug","message":"开始获取“国际组织”。","plugin":"cli","timestamp":"2025-08-28T22:22:12.911Z"}
+{"hook":"fetch_each.before","level":"debug","message":"开始获取“法学”。","plugin":"cli","timestamp":"2025-08-28T22:22:12.911Z"}
+{"hook":"fetch_each.before","level":"debug","message":"开始获取“材料”。","plugin":"cli","timestamp":"2025-08-28T22:22:12.911Z"}
+{"hook":"fetch_each.before","level":"debug","message":"开始获取“外国语”。","plugin":"cli","timestamp":"2025-08-28T22:22:12.911Z"}
+{"hook":"fetch_each.before","level":"debug","message":"开始获取“化学”。","plugin":"cli","timestamp":"2025-08-28T22:22:12.911Z"}
+{"hook":"fetch_each.before","level":"debug","message":"开始获取“招采”。","plugin":"cli","timestamp":"2025-08-28T22:22:12.911Z"}
+{"hook":"fetch_each.before","level":"debug","message":"开始获取“资实”。","plugin":"cli","timestamp":"2025-08-28T22:22:12.911Z"}
+{"hook":"fetch_each.before","level":"debug","message":"开始获取“党政部”。","plugin":"cli","timestamp":"2025-08-28T22:22:12.911Z"}
+{"hook":"fetch_each.before","level":"debug","message":"开始获取“数学实验”。","plugin":"cli","timestamp":"2025-08-28T22:22:12.911Z"}
+{"hook":"fetch_each.before","level":"debug","message":"开始获取“图书馆”。","plugin":"cli","timestamp":"2025-08-28T22:22:12.911Z"}
+{"hook":"fetch_each.before","level":"debug","message":"开始获取“图书馆讲座”。","plugin":"cli","timestamp":"2025-08-28T22:22:12.911Z"}
+{"hook":"fetch_each.before","level":"debug","message":"开始获取“延河”。","plugin":"cli","timestamp":"2025-08-28T22:22:12.911Z"}
+{"level":"http","message":"Request https://century.bit.edu.cn/tz/index.htm with proxy.","plugin":"proxy","timestamp":"2025-08-28T22:22:12.914Z"}
+{"level":"http","message":"Request https://student.bit.edu.cn/tzgg/index.htm with proxy.","plugin":"proxy","timestamp":"2025-08-28T22:22:12.914Z"}
+{"level":"http","message":"Request https://student.bit.edu.cn/xngs/index.blk.htm with proxy.","plugin":"proxy","timestamp":"2025-08-28T22:22:12.915Z"}
+{"level":"http","message":"Request http://cxcy.bit.edu.cn/pt/pt/Notice with proxy.","plugin":"proxy","timestamp":"2025-08-28T22:22:12.915Z"}
+{"level":"http","message":"Request https://dzb.bit.edu.cn/cms/web/notify/search?page=1&status=7&rows=20&order=1&sortFiled=publishDate with proxy.","plugin":"proxy","timestamp":"2025-08-28T22:22:12.916Z"}
+{"level":"http","message":"Request http://mec.bit.edu.cn/pcmd/ajax.php?vpn-12-o1-mec.bit.edu.cn&act=getmanage_nologin&w=新闻公告 with proxy.","plugin":"proxy","timestamp":"2025-08-28T22:22:12.917Z"}
+{"hook":"fetch_each.after","level":"debug","message":"结束获取“学工部等”。","plugin":"cli","timestamp":"2025-08-28T22:22:13.387Z"}
+{"level":"warn","message":"未从“学生事务”获取到任何通知。将忽略。","plugin":"cli","timestamp":"2025-08-28T22:22:13.738Z"}
+{"hook":"fetch_each.after","level":"debug","message":"结束获取“学生事务”。","plugin":"cli","timestamp":"2025-08-28T22:22:13.738Z"}
+{"level":"warn","message":"未从“资助公示”获取到任何通知。将忽略。","plugin":"cli","timestamp":"2025-08-28T22:22:13.840Z"}
+{"hook":"fetch_each.after","level":"debug","message":"结束获取“资助公示”。","plugin":"cli","timestamp":"2025-08-28T22:22:13.841Z"}
+{"hook":"fetch_each.after","level":"debug","message":"结束获取“党政部”。","plugin":"cli","timestamp":"2025-08-28T22:22:14.090Z"}
+{"hook":"fetch_each.error","level":"error","message":"TypeError: error sending request for url (https://rw.bit.edu.cn/rwszjyb/tzxw/index.htm): client error (Connect): tcp connect error: Connection refused (os error 111): Connection refused (os error 111)","plugin":"cli","timestamp":"2025-08-28T22:22:14.224Z"}
+{"hook":"fetch_each.error","level":"error","message":"TypeError: error sending request for url (https://rw.bit.edu.cn/tzgg/index.htm): client error (Connect): tcp connect error: Connection refused (os error 111): Connection refused (os error 111)","plugin":"cli","timestamp":"2025-08-28T22:22:14.224Z"}
+{"hook":"fetch_each.after","level":"debug","message":"结束获取“人文素质”。","plugin":"cli","timestamp":"2025-08-28T22:22:14.224Z"}
+{"hook":"fetch_each.after","level":"debug","message":"结束获取“人文”。","plugin":"cli","timestamp":"2025-08-28T22:22:14.224Z"}
+{"hook":"fetch_each.after","level":"debug","message":"结束获取“大创”。","plugin":"cli","timestamp":"2025-08-28T22:22:14.318Z"}
+{"hook":"fetch_each.after","level":"debug","message":"结束获取“校医院”。","plugin":"cli","timestamp":"2025-08-28T22:22:14.506Z"}
+{"hook":"fetch_each.after","level":"debug","message":"结束获取“图书馆讲座”。","plugin":"cli","timestamp":"2025-08-28T22:22:14.566Z"}
+{"hook":"fetch_each.after","level":"debug","message":"结束获取“图书馆”。","plugin":"cli","timestamp":"2025-08-28T22:22:14.595Z"}
+{"hook":"fetch_each.after","level":"debug","message":"结束获取“留学生”。","plugin":"cli","timestamp":"2025-08-28T22:22:14.695Z"}
+{"hook":"fetch_each.after","level":"debug","message":"结束获取“马克思”。","plugin":"cli","timestamp":"2025-08-28T22:22:14.700Z"}
+{"hook":"fetch_each.after","level":"debug","message":"结束获取“网信”。","plugin":"cli","timestamp":"2025-08-28T22:22:14.717Z"}
+{"hook":"fetch_each.after","level":"debug","message":"结束获取“北京书院”。","plugin":"cli","timestamp":"2025-08-28T22:22:14.720Z"}
+{"hook":"fetch_each.after","level":"debug","message":"结束获取“课程”。","plugin":"cli","timestamp":"2025-08-28T22:22:14.726Z"}
+{"hook":"fetch_each.after","level":"debug","message":"结束获取“明德”。","plugin":"cli","timestamp":"2025-08-28T22:22:14.743Z"}
+{"hook":"fetch_each.after","level":"debug","message":"结束获取“国际交流”。","plugin":"cli","timestamp":"2025-08-28T22:22:14.769Z"}
+{"hook":"fetch_each.after","level":"debug","message":"结束获取“数学实验”。","plugin":"cli","timestamp":"2025-08-28T22:22:14.784Z"}
+{"hook":"fetch_each.after","level":"debug","message":"结束获取“网安”。","plugin":"cli","timestamp":"2025-08-28T22:22:14.911Z"}
+{"hook":"fetch_each.after","level":"debug","message":"结束获取“教学中心”。","plugin":"cli","timestamp":"2025-08-28T22:22:14.922Z"}
+{"hook":"fetch_each.after","level":"debug","message":"结束获取“集电”。","plugin":"cli","timestamp":"2025-08-28T22:22:14.931Z"}
+{"hook":"fetch_each.after","level":"debug","message":"结束获取“经管”。","plugin":"cli","timestamp":"2025-08-28T22:22:14.958Z"}
+{"hook":"fetch_each.after","level":"debug","message":"结束获取“国际组织”。","plugin":"cli","timestamp":"2025-08-28T22:22:14.962Z"}
+{"hook":"fetch_each.after","level":"debug","message":"结束获取“知艺”。","plugin":"cli","timestamp":"2025-08-28T22:22:14.972Z"}
+{"hook":"fetch_each.after","level":"debug","message":"结束获取“人事”。","plugin":"cli","timestamp":"2025-08-28T22:22:14.993Z"}
+{"hook":"fetch_each.after","level":"debug","message":"结束获取“研究生”。","plugin":"cli","timestamp":"2025-08-28T22:22:14.993Z"}
+{"hook":"fetch_each.after","level":"debug","message":"结束获取“光电”。","plugin":"cli","timestamp":"2025-08-28T22:22:14.993Z"}
+{"hook":"fetch_each.after","level":"debug","message":"结束获取“生命”。","plugin":"cli","timestamp":"2025-08-28T22:22:15.003Z"}
+{"hook":"fetch_each.after","level":"debug","message":"结束获取“教务部”。","plugin":"cli","timestamp":"2025-08-28T22:22:15.018Z"}
+{"hook":"fetch_each.after","level":"debug","message":"结束获取“招采”。","plugin":"cli","timestamp":"2025-08-28T22:22:15.018Z"}
+{"hook":"fetch_each.after","level":"debug","message":"结束获取“延河”。","plugin":"cli","timestamp":"2025-08-28T22:22:15.111Z"}
+{"hook":"fetch_each.after","level":"debug","message":"结束获取“通用”。","plugin":"cli","timestamp":"2025-08-28T22:22:15.115Z"}
+{"hook":"fetch_each.after","level":"debug","message":"结束获取“新生”。","plugin":"cli","timestamp":"2025-08-28T22:22:15.130Z"}
+{"hook":"fetch_each.after","level":"debug","message":"结束获取“医学”。","plugin":"cli","timestamp":"2025-08-28T22:22:15.151Z"}
+{"level":"warn","message":"未从“计算机”获取到任何通知。将忽略。","plugin":"cli","timestamp":"2025-08-28T22:22:15.164Z"}
+{"hook":"fetch_each.after","level":"debug","message":"结束获取“计算机”。","plugin":"cli","timestamp":"2025-08-28T22:22:15.164Z"}
+{"hook":"fetch_each.after","level":"debug","message":"结束获取“机电”。","plugin":"cli","timestamp":"2025-08-28T22:22:15.176Z"}
+{"hook":"fetch_each.after","level":"debug","message":"结束获取“自动化”。","plugin":"cli","timestamp":"2025-08-28T22:22:15.186Z"}
+{"hook":"fetch_each.after","level":"debug","message":"结束获取“数学”。","plugin":"cli","timestamp":"2025-08-28T22:22:15.186Z"}
+{"level":"warn","message":"未从“法学”获取到任何通知。将忽略。","plugin":"cli","timestamp":"2025-08-28T22:22:15.191Z"}
+{"hook":"fetch_each.after","level":"debug","message":"结束获取“法学”。","plugin":"cli","timestamp":"2025-08-28T22:22:15.192Z"}
+{"hook":"fetch_each.after","level":"debug","message":"结束获取“资实”。","plugin":"cli","timestamp":"2025-08-28T22:22:15.221Z"}
+{"hook":"fetch_each.after","level":"debug","message":"结束获取“创新创业”。","plugin":"cli","timestamp":"2025-08-28T22:22:15.238Z"}
+{"hook":"fetch_each.after","level":"debug","message":"结束获取“精工”。","plugin":"cli","timestamp":"2025-08-28T22:22:15.258Z"}
+{"hook":"fetch_each.after","level":"debug","message":"结束获取“睿信”。","plugin":"cli","timestamp":"2025-08-28T22:22:15.262Z"}
+{"hook":"fetch_each.after","level":"debug","message":"结束获取“公开数据”。","plugin":"cli","timestamp":"2025-08-28T22:22:15.312Z"}
+{"hook":"fetch_each.after","level":"debug","message":"结束获取“特立”。","plugin":"cli","timestamp":"2025-08-28T22:22:15.334Z"}
+{"hook":"fetch_each.after","level":"debug","message":"结束获取“求是”。","plugin":"cli","timestamp":"2025-08-28T22:22:15.347Z"}
+{"hook":"fetch_each.after","level":"debug","message":"结束获取“宇航”。","plugin":"cli","timestamp":"2025-08-28T22:22:15.394Z"}
+{"hook":"fetch_each.after","level":"debug","message":"结束获取“外国语”。","plugin":"cli","timestamp":"2025-08-28T22:22:15.403Z"}
+{"hook":"fetch_each.after","level":"debug","message":"结束获取“材料”。","plugin":"cli","timestamp":"2025-08-28T22:22:15.495Z"}
+{"hook":"fetch_each.after","level":"debug","message":"结束获取“化学”。","plugin":"cli","timestamp":"2025-08-28T22:22:15.602Z"}
+{"hook":"fetch_each.after","level":"debug","message":"结束获取“机车”。","plugin":"cli","timestamp":"2025-08-28T22:22:15.612Z"}
+{"hook":"fetch_each.after","level":"debug","message":"结束获取“物理”。","plugin":"cli","timestamp":"2025-08-28T22:22:15.664Z"}
+{"hook":"fetch_each.after","level":"debug","message":"结束获取“公开通知”。","plugin":"cli","timestamp":"2025-08-28T22:22:15.870Z"}
+{"hook":"fetch_each.after","level":"debug","message":"结束获取“信电”。","plugin":"cli","timestamp":"2025-08-28T22:22:16.103Z"}
+{"level":"warn","message":"未找到以往通知，您可能是第一次运行。将忽略。","timestamp":"2025-08-28T22:22:16.109Z"}
+{"level":"info","message":"已按需保存到“output/notices.json”。","plugin":"cli","timestamp":"2025-08-28T22:22:16.112Z"}
+{"level":"info","message":"已保存到“output/feed.rss”。","plugin":"rss","timestamp":"2025-08-28T22:22:16.114Z"}
