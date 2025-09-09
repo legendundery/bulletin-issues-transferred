@@ -1,190 +1,246 @@
-{"level":"info","message":"Signed in successfully.","plugin":"proxy","timestamp":"2025-09-09T19:18:37.387Z"}
-{"level":"info","message":"发现54个通知来源。","plugin":"cli","timestamp":"2025-09-09T19:18:40.362Z"}
-{"hook":"fetch_each.before","level":"debug","message":"开始获取“睿信”。","plugin":"cli","timestamp":"2025-09-09T19:18:40.362Z"}
-{"hook":"fetch_each.before","level":"debug","message":"开始获取“求是”。","plugin":"cli","timestamp":"2025-09-09T19:18:40.363Z"}
-{"hook":"fetch_each.before","level":"debug","message":"开始获取“精工”。","plugin":"cli","timestamp":"2025-09-09T19:18:40.363Z"}
-{"hook":"fetch_each.before","level":"debug","message":"开始获取“明德”。","plugin":"cli","timestamp":"2025-09-09T19:18:40.363Z"}
-{"hook":"fetch_each.before","level":"debug","message":"开始获取“经管”。","plugin":"cli","timestamp":"2025-09-09T19:18:40.363Z"}
-{"hook":"fetch_each.before","level":"debug","message":"开始获取“知艺”。","plugin":"cli","timestamp":"2025-09-09T19:18:40.363Z"}
-{"hook":"fetch_each.before","level":"debug","message":"开始获取“特立”。","plugin":"cli","timestamp":"2025-09-09T19:18:40.363Z"}
-{"hook":"fetch_each.before","level":"debug","message":"开始获取“北京书院”。","plugin":"cli","timestamp":"2025-09-09T19:18:40.363Z"}
-{"hook":"fetch_each.before","level":"debug","message":"开始获取“留学生”。","plugin":"cli","timestamp":"2025-09-09T19:18:40.363Z"}
-{"hook":"fetch_each.before","level":"debug","message":"开始获取“马克思”。","plugin":"cli","timestamp":"2025-09-09T19:18:40.363Z"}
-{"hook":"fetch_each.before","level":"debug","message":"开始获取“研究生”。","plugin":"cli","timestamp":"2025-09-09T19:18:40.363Z"}
-{"hook":"fetch_each.before","level":"debug","message":"开始获取“通用”。","plugin":"cli","timestamp":"2025-09-09T19:18:40.363Z"}
-{"hook":"fetch_each.before","level":"debug","message":"开始获取“教务部”。","plugin":"cli","timestamp":"2025-09-09T19:18:40.363Z"}
-{"hook":"fetch_each.before","level":"debug","message":"开始获取“教学中心”。","plugin":"cli","timestamp":"2025-09-09T19:18:40.363Z"}
-{"hook":"fetch_each.before","level":"debug","message":"开始获取“学工部等”。","plugin":"cli","timestamp":"2025-09-09T19:18:40.363Z"}
-{"hook":"fetch_each.before","level":"debug","message":"开始获取“计算机”。","plugin":"cli","timestamp":"2025-09-09T19:18:40.363Z"}
-{"hook":"fetch_each.before","level":"debug","message":"开始获取“学生事务”。","plugin":"cli","timestamp":"2025-09-09T19:18:40.363Z"}
-{"hook":"fetch_each.before","level":"debug","message":"开始获取“创新创业”。","plugin":"cli","timestamp":"2025-09-09T19:18:40.363Z"}
-{"hook":"fetch_each.before","level":"debug","message":"开始获取“资助公示”。","plugin":"cli","timestamp":"2025-09-09T19:18:40.363Z"}
-{"hook":"fetch_each.before","level":"debug","message":"开始获取“大创”。","plugin":"cli","timestamp":"2025-09-09T19:18:40.363Z"}
-{"hook":"fetch_each.before","level":"debug","message":"开始获取“光电”。","plugin":"cli","timestamp":"2025-09-09T19:18:40.363Z"}
-{"hook":"fetch_each.before","level":"debug","message":"开始获取“网信”。","plugin":"cli","timestamp":"2025-09-09T19:18:40.363Z"}
-{"hook":"fetch_each.before","level":"debug","message":"开始获取“人事”。","plugin":"cli","timestamp":"2025-09-09T19:18:40.363Z"}
-{"hook":"fetch_each.before","level":"debug","message":"开始获取“公开数据”。","plugin":"cli","timestamp":"2025-09-09T19:18:40.363Z"}
-{"hook":"fetch_each.before","level":"debug","message":"开始获取“公开通知”。","plugin":"cli","timestamp":"2025-09-09T19:18:40.363Z"}
-{"hook":"fetch_each.before","level":"debug","message":"开始获取“校医院”。","plugin":"cli","timestamp":"2025-09-09T19:18:40.364Z"}
-{"hook":"fetch_each.before","level":"debug","message":"开始获取“国际交流”。","plugin":"cli","timestamp":"2025-09-09T19:18:40.364Z"}
-{"hook":"fetch_each.before","level":"debug","message":"开始获取“新生”。","plugin":"cli","timestamp":"2025-09-09T19:18:40.364Z"}
-{"hook":"fetch_each.before","level":"debug","message":"开始获取“信电”。","plugin":"cli","timestamp":"2025-09-09T19:18:40.364Z"}
-{"hook":"fetch_each.before","level":"debug","message":"开始获取“网安”。","plugin":"cli","timestamp":"2025-09-09T19:18:40.364Z"}
-{"hook":"fetch_each.before","level":"debug","message":"开始获取“集电”。","plugin":"cli","timestamp":"2025-09-09T19:18:40.364Z"}
-{"hook":"fetch_each.before","level":"debug","message":"开始获取“机车”。","plugin":"cli","timestamp":"2025-09-09T19:18:40.364Z"}
-{"hook":"fetch_each.before","level":"debug","message":"开始获取“数学”。","plugin":"cli","timestamp":"2025-09-09T19:18:40.364Z"}
-{"hook":"fetch_each.before","level":"debug","message":"开始获取“物理”。","plugin":"cli","timestamp":"2025-09-09T19:18:40.364Z"}
-{"hook":"fetch_each.before","level":"debug","message":"开始获取“机电”。","plugin":"cli","timestamp":"2025-09-09T19:18:40.364Z"}
-{"hook":"fetch_each.before","level":"debug","message":"开始获取“生命”。","plugin":"cli","timestamp":"2025-09-09T19:18:40.364Z"}
-{"hook":"fetch_each.before","level":"debug","message":"开始获取“宇航”。","plugin":"cli","timestamp":"2025-09-09T19:18:40.364Z"}
-{"hook":"fetch_each.before","level":"debug","message":"开始获取“医学”。","plugin":"cli","timestamp":"2025-09-09T19:18:40.364Z"}
-{"hook":"fetch_each.before","level":"debug","message":"开始获取“自动化”。","plugin":"cli","timestamp":"2025-09-09T19:18:40.364Z"}
-{"hook":"fetch_each.before","level":"debug","message":"开始获取“人文”。","plugin":"cli","timestamp":"2025-09-09T19:18:40.364Z"}
-{"hook":"fetch_each.before","level":"debug","message":"开始获取“人文素质”。","plugin":"cli","timestamp":"2025-09-09T19:18:40.364Z"}
-{"hook":"fetch_each.before","level":"debug","message":"开始获取“课程”。","plugin":"cli","timestamp":"2025-09-09T19:18:40.364Z"}
-{"hook":"fetch_each.before","level":"debug","message":"开始获取“国际组织”。","plugin":"cli","timestamp":"2025-09-09T19:18:40.364Z"}
-{"hook":"fetch_each.before","level":"debug","message":"开始获取“法学”。","plugin":"cli","timestamp":"2025-09-09T19:18:40.364Z"}
-{"hook":"fetch_each.before","level":"debug","message":"开始获取“材料”。","plugin":"cli","timestamp":"2025-09-09T19:18:40.364Z"}
-{"hook":"fetch_each.before","level":"debug","message":"开始获取“外国语”。","plugin":"cli","timestamp":"2025-09-09T19:18:40.364Z"}
-{"hook":"fetch_each.before","level":"debug","message":"开始获取“化学”。","plugin":"cli","timestamp":"2025-09-09T19:18:40.364Z"}
-{"hook":"fetch_each.before","level":"debug","message":"开始获取“招采”。","plugin":"cli","timestamp":"2025-09-09T19:18:40.364Z"}
-{"hook":"fetch_each.before","level":"debug","message":"开始获取“资实”。","plugin":"cli","timestamp":"2025-09-09T19:18:40.364Z"}
-{"hook":"fetch_each.before","level":"debug","message":"开始获取“党政部”。","plugin":"cli","timestamp":"2025-09-09T19:18:40.364Z"}
-{"hook":"fetch_each.before","level":"debug","message":"开始获取“数学实验”。","plugin":"cli","timestamp":"2025-09-09T19:18:40.364Z"}
-{"hook":"fetch_each.before","level":"debug","message":"开始获取“图书馆”。","plugin":"cli","timestamp":"2025-09-09T19:18:40.364Z"}
-{"hook":"fetch_each.before","level":"debug","message":"开始获取“图书馆讲座”。","plugin":"cli","timestamp":"2025-09-09T19:18:40.364Z"}
-{"hook":"fetch_each.before","level":"debug","message":"开始获取“延河”。","plugin":"cli","timestamp":"2025-09-09T19:18:40.364Z"}
-{"level":"http","message":"Request https://century.bit.edu.cn/tz/index.htm with proxy.","plugin":"proxy","timestamp":"2025-09-09T19:18:40.367Z"}
-{"level":"http","message":"Request https://student.bit.edu.cn/tzgg/index.htm with proxy.","plugin":"proxy","timestamp":"2025-09-09T19:18:40.367Z"}
-{"level":"http","message":"Request https://student.bit.edu.cn/xngs/index.blk.htm with proxy.","plugin":"proxy","timestamp":"2025-09-09T19:18:40.367Z"}
-{"level":"http","message":"Request http://cxcy.bit.edu.cn/pt/pt/Notice with proxy.","plugin":"proxy","timestamp":"2025-09-09T19:18:40.368Z"}
-{"level":"http","message":"Request https://dzb.bit.edu.cn/cms/web/notify/search?page=1&status=7&rows=20&order=1&sortFiled=publishDate with proxy.","plugin":"proxy","timestamp":"2025-09-09T19:18:40.369Z"}
-{"level":"http","message":"Request http://mec.bit.edu.cn/pcmd/ajax.php?vpn-12-o1-mec.bit.edu.cn&act=getmanage_nologin&w=新闻公告 with proxy.","plugin":"proxy","timestamp":"2025-09-09T19:18:40.369Z"}
-{"hook":"fetch_each.after","level":"debug","message":"结束获取“党政部”。","plugin":"cli","timestamp":"2025-09-09T19:18:41.286Z"}
-{"hook":"fetch_each.after","level":"debug","message":"结束获取“数学实验”。","plugin":"cli","timestamp":"2025-09-09T19:18:41.305Z"}
-{"hook":"fetch_each.error","level":"error","message":"TypeError: error sending request for url (https://rw.bit.edu.cn/rwszjyb/tzxw/index.htm): client error (Connect): tcp connect error: Connection refused (os error 111): Connection refused (os error 111)","plugin":"cli","timestamp":"2025-09-09T19:18:41.517Z"}
-{"hook":"fetch_each.error","level":"error","message":"TypeError: error sending request for url (https://rw.bit.edu.cn/tzgg/index.htm): client error (Connect): tcp connect error: Connection refused (os error 111): Connection refused (os error 111)","plugin":"cli","timestamp":"2025-09-09T19:18:41.517Z"}
-{"hook":"fetch_each.after","level":"debug","message":"结束获取“人文素质”。","plugin":"cli","timestamp":"2025-09-09T19:18:41.518Z"}
-{"hook":"fetch_each.after","level":"debug","message":"结束获取“人文”。","plugin":"cli","timestamp":"2025-09-09T19:18:41.518Z"}
-{"hook":"fetch_each.after","level":"debug","message":"结束获取“大创”。","plugin":"cli","timestamp":"2025-09-09T19:18:41.613Z"}
-{"hook":"fetch_each.after","level":"debug","message":"结束获取“图书馆”。","plugin":"cli","timestamp":"2025-09-09T19:18:41.890Z"}
-{"hook":"fetch_each.after","level":"debug","message":"结束获取“图书馆讲座”。","plugin":"cli","timestamp":"2025-09-09T19:18:41.891Z"}
-{"hook":"fetch_each.after","level":"debug","message":"结束获取“延河”。","plugin":"cli","timestamp":"2025-09-09T19:18:42.071Z"}
-{"hook":"fetch_each.after","level":"debug","message":"结束获取“创新创业”。","plugin":"cli","timestamp":"2025-09-09T19:18:42.438Z"}
-{"hook":"fetch_each.after","level":"debug","message":"结束获取“睿信”。","plugin":"cli","timestamp":"2025-09-09T19:18:42.448Z"}
-{"hook":"fetch_each.after","level":"debug","message":"结束获取“招采”。","plugin":"cli","timestamp":"2025-09-09T19:18:49.110Z"}
-{"hook":"fetch_each.after","level":"debug","message":"结束获取“通用”。","plugin":"cli","timestamp":"2025-09-09T19:18:49.630Z"}
-{"hook":"fetch_each.after","level":"debug","message":"结束获取“精工”。","plugin":"cli","timestamp":"2025-09-09T19:18:49.684Z"}
-{"hook":"fetch_each.after","level":"debug","message":"结束获取“求是”。","plugin":"cli","timestamp":"2025-09-09T19:18:49.694Z"}
-{"hook":"fetch_each.after","level":"debug","message":"结束获取“医学”。","plugin":"cli","timestamp":"2025-09-09T19:18:49.719Z"}
-{"hook":"fetch_each.after","level":"debug","message":"结束获取“自动化”。","plugin":"cli","timestamp":"2025-09-09T19:18:49.724Z"}
-{"hook":"fetch_each.after","level":"debug","message":"结束获取“外国语”。","plugin":"cli","timestamp":"2025-09-09T19:18:49.730Z"}
-{"hook":"fetch_each.after","level":"debug","message":"结束获取“材料”。","plugin":"cli","timestamp":"2025-09-09T19:18:49.740Z"}
-{"hook":"fetch_each.after","level":"debug","message":"结束获取“资实”。","plugin":"cli","timestamp":"2025-09-09T19:18:49.740Z"}
-{"level":"warn","message":"未从“学生事务”获取到任何通知。将忽略。","plugin":"cli","timestamp":"2025-09-09T19:18:49.826Z"}
-{"hook":"fetch_each.after","level":"debug","message":"结束获取“学生事务”。","plugin":"cli","timestamp":"2025-09-09T19:18:49.827Z"}
-{"hook":"fetch_each.after","level":"debug","message":"结束获取“学工部等”。","plugin":"cli","timestamp":"2025-09-09T19:18:49.833Z"}
-{"level":"warn","message":"未从“法学”获取到任何通知。将忽略。","plugin":"cli","timestamp":"2025-09-09T19:18:49.934Z"}
-{"hook":"fetch_each.after","level":"debug","message":"结束获取“法学”。","plugin":"cli","timestamp":"2025-09-09T19:18:49.934Z"}
-{"hook":"fetch_each.after","level":"debug","message":"结束获取“宇航”。","plugin":"cli","timestamp":"2025-09-09T19:18:49.945Z"}
-{"hook":"fetch_each.after","level":"debug","message":"结束获取“化学”。","plugin":"cli","timestamp":"2025-09-09T19:18:49.969Z"}
-{"level":"warn","message":"未从“资助公示”获取到任何通知。将忽略。","plugin":"cli","timestamp":"2025-09-09T19:18:50.186Z"}
-{"hook":"fetch_each.after","level":"debug","message":"结束获取“资助公示”。","plugin":"cli","timestamp":"2025-09-09T19:18:50.186Z"}
-{"level":"http","message":"Time is out when requesting “https://sme.bit.edu.cn/gbxwzx/tzgg/index.htm”. Retry later.","plugin":"retry","timestamp":"2025-09-09T19:18:50.373Z"}
-{"level":"http","message":"Time is out when requesting “https://xuteli.bit.edu.cn/tzgg/index.htm”. Retry later.","plugin":"retry","timestamp":"2025-09-09T19:18:50.373Z"}
-{"level":"http","message":"Time is out when requesting “https://bj.bit.edu.cn/tzgg/index.htm”. Retry later.","plugin":"retry","timestamp":"2025-09-09T19:18:50.373Z"}
-{"level":"http","message":"Time is out when requesting “https://marx.bit.edu.cn/tzgg/index.htm”. Retry later.","plugin":"retry","timestamp":"2025-09-09T19:18:50.373Z"}
-{"level":"http","message":"Time is out when requesting “https://grd.bit.edu.cn/tzgg1/index.htm”. Retry later.","plugin":"retry","timestamp":"2025-09-09T19:18:50.373Z"}
-{"level":"http","message":"Time is out when requesting “https://jwb.bit.edu.cn/tzgg/index.htm”. Retry later.","plugin":"retry","timestamp":"2025-09-09T19:18:50.373Z"}
-{"level":"http","message":"Time is out when requesting “https://cs.bit.edu.cn/tzgg/index.htm”. Retry later.","plugin":"retry","timestamp":"2025-09-09T19:18:50.374Z"}
-{"level":"http","message":"Time is out when requesting “https://opt.bit.edu.cn/tzgg2/tzgg/index.htm”. Retry later.","plugin":"retry","timestamp":"2025-09-09T19:18:50.374Z"}
-{"level":"http","message":"Time is out when requesting “https://renshichu.bit.edu.cn/gbtzgg/index.htm”. Retry later.","plugin":"retry","timestamp":"2025-09-09T19:18:50.374Z"}
-{"level":"http","message":"Time is out when requesting “https://xxgk.bit.edu.cn/zxgkxx/index.htm”. Retry later.","plugin":"retry","timestamp":"2025-09-09T19:18:50.374Z"}
-{"level":"http","message":"Time is out when requesting “https://xxgk.bit.edu.cn/tzgg/index.htm”. Retry later.","plugin":"retry","timestamp":"2025-09-09T19:18:50.374Z"}
-{"level":"http","message":"Time is out when requesting “https://xyy.bit.edu.cn/tzgg/index.htm”. Retry later.","plugin":"retry","timestamp":"2025-09-09T19:18:50.374Z"}
-{"level":"http","message":"Time is out when requesting “https://abroad.bit.edu.cn/xwtz/tzgg/index.htm”. Retry later.","plugin":"retry","timestamp":"2025-09-09T19:18:50.374Z"}
-{"level":"http","message":"Time is out when requesting “https://hi.bit.edu.cn/rxbd/dttzyx/index.htm”. Retry later.","plugin":"retry","timestamp":"2025-09-09T19:18:50.374Z"}
-{"level":"http","message":"Time is out when requesting “https://sie.bit.edu.cn/index.htm”. Retry later.","plugin":"retry","timestamp":"2025-09-09T19:18:50.375Z"}
-{"level":"http","message":"Time is out when requesting “https://cst.bit.edu.cn/xxfw/tzgg/index.htm”. Retry later.","plugin":"retry","timestamp":"2025-09-09T19:18:50.375Z"}
-{"level":"http","message":"Time is out when requesting “https://ice.bit.edu.cn/xxfw/tzgg1/index.htm”. Retry later.","plugin":"retry","timestamp":"2025-09-09T19:18:50.376Z"}
-{"level":"http","message":"Time is out when requesting “https://me.bit.edu.cn/tzgg/index.htm”. Retry later.","plugin":"retry","timestamp":"2025-09-09T19:18:50.376Z"}
-{"level":"http","message":"Time is out when requesting “https://math.bit.edu.cn/tzgg/index.htm”. Retry later.","plugin":"retry","timestamp":"2025-09-09T19:18:50.376Z"}
-{"level":"http","message":"Time is out when requesting “https://smen.bit.edu.cn/tzgg/index.htm”. Retry later.","plugin":"retry","timestamp":"2025-09-09T19:18:50.376Z"}
-{"level":"http","message":"Time is out when requesting “https://ls.bit.edu.cn/xytz/index.htm”. Retry later.","plugin":"retry","timestamp":"2025-09-09T19:18:50.376Z"}
-{"level":"http","message":"Time is out when requesting “https://sgg.bit.edu.cn/tzgg/index.htm”. Retry later.","plugin":"retry","timestamp":"2025-09-09T19:18:50.376Z"}
-{"hook":"fetch_each.after","level":"debug","message":"结束获取“知艺”。","plugin":"cli","timestamp":"2025-09-09T19:18:50.397Z"}
-{"hook":"fetch_each.after","level":"debug","message":"结束获取“明德”。","plugin":"cli","timestamp":"2025-09-09T19:18:50.402Z"}
-{"hook":"fetch_each.after","level":"debug","message":"结束获取“课程”。","plugin":"cli","timestamp":"2025-09-09T19:18:50.406Z"}
-{"hook":"fetch_each.after","level":"debug","message":"结束获取“教学中心”。","plugin":"cli","timestamp":"2025-09-09T19:18:50.437Z"}
-{"hook":"fetch_each.after","level":"debug","message":"结束获取“网信”。","plugin":"cli","timestamp":"2025-09-09T19:18:50.447Z"}
-{"hook":"fetch_each.after","level":"debug","message":"结束获取“留学生”。","plugin":"cli","timestamp":"2025-09-09T19:18:50.807Z"}
-{"hook":"fetch_each.after","level":"debug","message":"结束获取“物理”。","plugin":"cli","timestamp":"2025-09-09T19:18:50.821Z"}
-{"level":"http","message":"Retry “https://sme.bit.edu.cn/gbxwzx/tzgg/index.htm”.","plugin":"retry","timestamp":"2025-09-09T19:19:00.375Z"}
-{"level":"http","message":"Retry “https://xuteli.bit.edu.cn/tzgg/index.htm”.","plugin":"retry","timestamp":"2025-09-09T19:19:00.375Z"}
-{"level":"http","message":"Retry “https://bj.bit.edu.cn/tzgg/index.htm”.","plugin":"retry","timestamp":"2025-09-09T19:19:00.376Z"}
-{"level":"http","message":"Retry “https://marx.bit.edu.cn/tzgg/index.htm”.","plugin":"retry","timestamp":"2025-09-09T19:19:00.376Z"}
-{"level":"http","message":"Retry “https://grd.bit.edu.cn/tzgg1/index.htm”.","plugin":"retry","timestamp":"2025-09-09T19:19:00.376Z"}
-{"level":"http","message":"Retry “https://jwb.bit.edu.cn/tzgg/index.htm”.","plugin":"retry","timestamp":"2025-09-09T19:19:00.376Z"}
-{"level":"http","message":"Retry “https://cs.bit.edu.cn/tzgg/index.htm”.","plugin":"retry","timestamp":"2025-09-09T19:19:00.376Z"}
-{"level":"http","message":"Retry “https://opt.bit.edu.cn/tzgg2/tzgg/index.htm”.","plugin":"retry","timestamp":"2025-09-09T19:19:00.376Z"}
-{"level":"http","message":"Retry “https://renshichu.bit.edu.cn/gbtzgg/index.htm”.","plugin":"retry","timestamp":"2025-09-09T19:19:00.377Z"}
-{"level":"http","message":"Retry “https://xxgk.bit.edu.cn/zxgkxx/index.htm”.","plugin":"retry","timestamp":"2025-09-09T19:19:00.377Z"}
-{"level":"http","message":"Retry “https://xxgk.bit.edu.cn/tzgg/index.htm”.","plugin":"retry","timestamp":"2025-09-09T19:19:00.377Z"}
-{"level":"http","message":"Retry “https://xyy.bit.edu.cn/tzgg/index.htm”.","plugin":"retry","timestamp":"2025-09-09T19:19:00.377Z"}
-{"level":"http","message":"Retry “https://abroad.bit.edu.cn/xwtz/tzgg/index.htm”.","plugin":"retry","timestamp":"2025-09-09T19:19:00.377Z"}
-{"level":"http","message":"Retry “https://hi.bit.edu.cn/rxbd/dttzyx/index.htm”.","plugin":"retry","timestamp":"2025-09-09T19:19:00.377Z"}
-{"level":"http","message":"Retry “https://sie.bit.edu.cn/index.htm”.","plugin":"retry","timestamp":"2025-09-09T19:19:00.378Z"}
-{"level":"http","message":"Retry “https://cst.bit.edu.cn/xxfw/tzgg/index.htm”.","plugin":"retry","timestamp":"2025-09-09T19:19:00.378Z"}
-{"level":"http","message":"Retry “https://ice.bit.edu.cn/xxfw/tzgg1/index.htm”.","plugin":"retry","timestamp":"2025-09-09T19:19:00.378Z"}
-{"level":"http","message":"Retry “https://me.bit.edu.cn/tzgg/index.htm”.","plugin":"retry","timestamp":"2025-09-09T19:19:00.379Z"}
-{"level":"http","message":"Retry “https://math.bit.edu.cn/tzgg/index.htm”.","plugin":"retry","timestamp":"2025-09-09T19:19:00.379Z"}
-{"level":"http","message":"Retry “https://smen.bit.edu.cn/tzgg/index.htm”.","plugin":"retry","timestamp":"2025-09-09T19:19:00.379Z"}
-{"level":"http","message":"Retry “https://ls.bit.edu.cn/xytz/index.htm”.","plugin":"retry","timestamp":"2025-09-09T19:19:00.379Z"}
-{"level":"http","message":"Retry “https://sgg.bit.edu.cn/tzgg/index.htm”.","plugin":"retry","timestamp":"2025-09-09T19:19:00.380Z"}
-{"level":"error","message":"访问“特立”（Timeout）超时，可能因为访问太频繁。将忽略。","plugin":"cli","timestamp":"2025-09-09T19:19:10.376Z"}
-{"hook":"fetch_each.after","level":"debug","message":"结束获取“特立”。","plugin":"cli","timestamp":"2025-09-09T19:19:10.377Z"}
-{"level":"error","message":"访问“马克思”（Timeout）超时，可能因为访问太频繁。将忽略。","plugin":"cli","timestamp":"2025-09-09T19:19:10.377Z"}
-{"hook":"fetch_each.after","level":"debug","message":"结束获取“马克思”。","plugin":"cli","timestamp":"2025-09-09T19:19:10.377Z"}
-{"level":"error","message":"访问“研究生”（Timeout）超时，可能因为访问太频繁。将忽略。","plugin":"cli","timestamp":"2025-09-09T19:19:10.377Z"}
-{"hook":"fetch_each.after","level":"debug","message":"结束获取“研究生”。","plugin":"cli","timestamp":"2025-09-09T19:19:10.377Z"}
-{"level":"error","message":"访问“计算机”（Timeout）超时，可能因为访问太频繁。将忽略。","plugin":"cli","timestamp":"2025-09-09T19:19:10.378Z"}
-{"hook":"fetch_each.after","level":"debug","message":"结束获取“计算机”。","plugin":"cli","timestamp":"2025-09-09T19:19:10.378Z"}
-{"level":"error","message":"访问“光电”（Timeout）超时，可能因为访问太频繁。将忽略。","plugin":"cli","timestamp":"2025-09-09T19:19:10.378Z"}
-{"hook":"fetch_each.after","level":"debug","message":"结束获取“光电”。","plugin":"cli","timestamp":"2025-09-09T19:19:10.378Z"}
-{"level":"error","message":"访问“公开数据”（Timeout）超时，可能因为访问太频繁。将忽略。","plugin":"cli","timestamp":"2025-09-09T19:19:10.378Z"}
-{"hook":"fetch_each.after","level":"debug","message":"结束获取“公开数据”。","plugin":"cli","timestamp":"2025-09-09T19:19:10.378Z"}
-{"level":"error","message":"访问“公开通知”（Timeout）超时，可能因为访问太频繁。将忽略。","plugin":"cli","timestamp":"2025-09-09T19:19:10.378Z"}
-{"hook":"fetch_each.after","level":"debug","message":"结束获取“公开通知”。","plugin":"cli","timestamp":"2025-09-09T19:19:10.379Z"}
-{"level":"error","message":"访问“校医院”（Timeout）超时，可能因为访问太频繁。将忽略。","plugin":"cli","timestamp":"2025-09-09T19:19:10.379Z"}
-{"hook":"fetch_each.after","level":"debug","message":"结束获取“校医院”。","plugin":"cli","timestamp":"2025-09-09T19:19:10.379Z"}
-{"level":"error","message":"访问“信电”（Timeout）超时，可能因为访问太频繁。将忽略。","plugin":"cli","timestamp":"2025-09-09T19:19:10.379Z"}
-{"hook":"fetch_each.after","level":"debug","message":"结束获取“信电”。","plugin":"cli","timestamp":"2025-09-09T19:19:10.379Z"}
-{"level":"error","message":"访问“网安”（Timeout）超时，可能因为访问太频繁。将忽略。","plugin":"cli","timestamp":"2025-09-09T19:19:10.380Z"}
-{"hook":"fetch_each.after","level":"debug","message":"结束获取“网安”。","plugin":"cli","timestamp":"2025-09-09T19:19:10.380Z"}
-{"level":"error","message":"访问“集电”（Timeout）超时，可能因为访问太频繁。将忽略。","plugin":"cli","timestamp":"2025-09-09T19:19:10.380Z"}
-{"hook":"fetch_each.after","level":"debug","message":"结束获取“集电”。","plugin":"cli","timestamp":"2025-09-09T19:19:10.380Z"}
-{"level":"error","message":"访问“机车”（Timeout）超时，可能因为访问太频繁。将忽略。","plugin":"cli","timestamp":"2025-09-09T19:19:10.380Z"}
-{"hook":"fetch_each.after","level":"debug","message":"结束获取“机车”。","plugin":"cli","timestamp":"2025-09-09T19:19:10.380Z"}
-{"level":"error","message":"访问“数学”（Timeout）超时，可能因为访问太频繁。将忽略。","plugin":"cli","timestamp":"2025-09-09T19:19:10.380Z"}
-{"hook":"fetch_each.after","level":"debug","message":"结束获取“数学”。","plugin":"cli","timestamp":"2025-09-09T19:19:10.380Z"}
-{"level":"error","message":"访问“机电”（Timeout）超时，可能因为访问太频繁。将忽略。","plugin":"cli","timestamp":"2025-09-09T19:19:10.381Z"}
-{"hook":"fetch_each.after","level":"debug","message":"结束获取“机电”。","plugin":"cli","timestamp":"2025-09-09T19:19:10.381Z"}
-{"level":"error","message":"访问“国际组织”（Timeout）超时，可能因为访问太频繁。将忽略。","plugin":"cli","timestamp":"2025-09-09T19:19:10.381Z"}
-{"hook":"fetch_each.after","level":"debug","message":"结束获取“国际组织”。","plugin":"cli","timestamp":"2025-09-09T19:19:10.381Z"}
-{"hook":"fetch_each.error","level":"error","message":"TypeError: error sending request from 10.1.0.13:43062 for https://abroad.bit.edu.cn/xwtz/tzgg/index.htm (114.247.56.160:443): client error (SendRequest): connection error: Connection reset by peer (os error 104)","plugin":"cli","timestamp":"2025-09-09T19:19:14.349Z"}
-{"hook":"fetch_each.after","level":"debug","message":"结束获取“国际交流”。","plugin":"cli","timestamp":"2025-09-09T19:19:14.350Z"}
-{"level":"error","message":"访问“新生”（Timeout）超时，可能因为访问太频繁。将忽略。","plugin":"cli","timestamp":"2025-09-09T19:19:17.493Z"}
-{"hook":"fetch_each.after","level":"debug","message":"结束获取“新生”。","plugin":"cli","timestamp":"2025-09-09T19:19:17.494Z"}
-{"level":"error","message":"访问“北京书院”（Timeout）超时，可能因为访问太频繁。将忽略。","plugin":"cli","timestamp":"2025-09-09T19:19:17.502Z"}
-{"hook":"fetch_each.after","level":"debug","message":"结束获取“北京书院”。","plugin":"cli","timestamp":"2025-09-09T19:19:17.502Z"}
-{"level":"error","message":"访问“经管”（Timeout）超时，可能因为访问太频繁。将忽略。","plugin":"cli","timestamp":"2025-09-09T19:19:17.511Z"}
-{"hook":"fetch_each.after","level":"debug","message":"结束获取“经管”。","plugin":"cli","timestamp":"2025-09-09T19:19:17.511Z"}
-{"level":"error","message":"访问“人事”（Timeout）超时，可能因为访问太频繁。将忽略。","plugin":"cli","timestamp":"2025-09-09T19:19:17.512Z"}
-{"hook":"fetch_each.after","level":"debug","message":"结束获取“人事”。","plugin":"cli","timestamp":"2025-09-09T19:19:17.512Z"}
-{"level":"error","message":"访问“教务部”（Timeout）超时，可能因为访问太频繁。将忽略。","plugin":"cli","timestamp":"2025-09-09T19:19:17.513Z"}
-{"hook":"fetch_each.after","level":"debug","message":"结束获取“教务部”。","plugin":"cli","timestamp":"2025-09-09T19:19:17.513Z"}
-{"level":"error","message":"访问“生命”（Timeout）超时，可能因为访问太频繁。将忽略。","plugin":"cli","timestamp":"2025-09-09T19:19:17.514Z"}
-{"hook":"fetch_each.after","level":"debug","message":"结束获取“生命”。","plugin":"cli","timestamp":"2025-09-09T19:19:17.514Z"}
-{"level":"warn","message":"未找到以往通知，您可能是第一次运行。将忽略。","timestamp":"2025-09-09T19:19:17.520Z"}
-{"level":"info","message":"已按需保存到“output/notices.json”。","plugin":"cli","timestamp":"2025-09-09T19:19:17.522Z"}
-{"level":"info","message":"已保存到“output/feed.rss”。","plugin":"rss","timestamp":"2025-09-09T19:19:17.524Z"}
+{"level":"info","message":"Signed in successfully.","plugin":"proxy","timestamp":"2025-09-09T19:39:18.431Z"}
+{"level":"info","message":"发现54个通知来源。","plugin":"cli","timestamp":"2025-09-09T19:39:23.765Z"}
+{"hook":"fetch_each.before","level":"debug","message":"开始获取“睿信”。","plugin":"cli","timestamp":"2025-09-09T19:39:23.766Z"}
+{"hook":"fetch_each.before","level":"debug","message":"开始获取“求是”。","plugin":"cli","timestamp":"2025-09-09T19:39:23.766Z"}
+{"hook":"fetch_each.before","level":"debug","message":"开始获取“精工”。","plugin":"cli","timestamp":"2025-09-09T19:39:23.766Z"}
+{"hook":"fetch_each.before","level":"debug","message":"开始获取“明德”。","plugin":"cli","timestamp":"2025-09-09T19:39:23.767Z"}
+{"hook":"fetch_each.before","level":"debug","message":"开始获取“经管”。","plugin":"cli","timestamp":"2025-09-09T19:39:23.767Z"}
+{"hook":"fetch_each.before","level":"debug","message":"开始获取“知艺”。","plugin":"cli","timestamp":"2025-09-09T19:39:23.767Z"}
+{"hook":"fetch_each.before","level":"debug","message":"开始获取“特立”。","plugin":"cli","timestamp":"2025-09-09T19:39:23.767Z"}
+{"hook":"fetch_each.before","level":"debug","message":"开始获取“北京书院”。","plugin":"cli","timestamp":"2025-09-09T19:39:23.767Z"}
+{"hook":"fetch_each.before","level":"debug","message":"开始获取“留学生”。","plugin":"cli","timestamp":"2025-09-09T19:39:23.767Z"}
+{"hook":"fetch_each.before","level":"debug","message":"开始获取“马克思”。","plugin":"cli","timestamp":"2025-09-09T19:39:23.767Z"}
+{"hook":"fetch_each.before","level":"debug","message":"开始获取“研究生”。","plugin":"cli","timestamp":"2025-09-09T19:39:23.767Z"}
+{"hook":"fetch_each.before","level":"debug","message":"开始获取“通用”。","plugin":"cli","timestamp":"2025-09-09T19:39:23.767Z"}
+{"hook":"fetch_each.before","level":"debug","message":"开始获取“教务部”。","plugin":"cli","timestamp":"2025-09-09T19:39:23.767Z"}
+{"hook":"fetch_each.before","level":"debug","message":"开始获取“教学中心”。","plugin":"cli","timestamp":"2025-09-09T19:39:23.767Z"}
+{"hook":"fetch_each.before","level":"debug","message":"开始获取“学工部等”。","plugin":"cli","timestamp":"2025-09-09T19:39:23.767Z"}
+{"hook":"fetch_each.before","level":"debug","message":"开始获取“计算机”。","plugin":"cli","timestamp":"2025-09-09T19:39:23.767Z"}
+{"hook":"fetch_each.before","level":"debug","message":"开始获取“学生事务”。","plugin":"cli","timestamp":"2025-09-09T19:39:23.767Z"}
+{"hook":"fetch_each.before","level":"debug","message":"开始获取“创新创业”。","plugin":"cli","timestamp":"2025-09-09T19:39:23.767Z"}
+{"hook":"fetch_each.before","level":"debug","message":"开始获取“资助公示”。","plugin":"cli","timestamp":"2025-09-09T19:39:23.767Z"}
+{"hook":"fetch_each.before","level":"debug","message":"开始获取“大创”。","plugin":"cli","timestamp":"2025-09-09T19:39:23.767Z"}
+{"hook":"fetch_each.before","level":"debug","message":"开始获取“光电”。","plugin":"cli","timestamp":"2025-09-09T19:39:23.767Z"}
+{"hook":"fetch_each.before","level":"debug","message":"开始获取“网信”。","plugin":"cli","timestamp":"2025-09-09T19:39:23.767Z"}
+{"hook":"fetch_each.before","level":"debug","message":"开始获取“人事”。","plugin":"cli","timestamp":"2025-09-09T19:39:23.767Z"}
+{"hook":"fetch_each.before","level":"debug","message":"开始获取“公开数据”。","plugin":"cli","timestamp":"2025-09-09T19:39:23.767Z"}
+{"hook":"fetch_each.before","level":"debug","message":"开始获取“公开通知”。","plugin":"cli","timestamp":"2025-09-09T19:39:23.767Z"}
+{"hook":"fetch_each.before","level":"debug","message":"开始获取“校医院”。","plugin":"cli","timestamp":"2025-09-09T19:39:23.767Z"}
+{"hook":"fetch_each.before","level":"debug","message":"开始获取“国际交流”。","plugin":"cli","timestamp":"2025-09-09T19:39:23.767Z"}
+{"hook":"fetch_each.before","level":"debug","message":"开始获取“新生”。","plugin":"cli","timestamp":"2025-09-09T19:39:23.767Z"}
+{"hook":"fetch_each.before","level":"debug","message":"开始获取“信电”。","plugin":"cli","timestamp":"2025-09-09T19:39:23.767Z"}
+{"hook":"fetch_each.before","level":"debug","message":"开始获取“网安”。","plugin":"cli","timestamp":"2025-09-09T19:39:23.767Z"}
+{"hook":"fetch_each.before","level":"debug","message":"开始获取“集电”。","plugin":"cli","timestamp":"2025-09-09T19:39:23.767Z"}
+{"hook":"fetch_each.before","level":"debug","message":"开始获取“机车”。","plugin":"cli","timestamp":"2025-09-09T19:39:23.767Z"}
+{"hook":"fetch_each.before","level":"debug","message":"开始获取“数学”。","plugin":"cli","timestamp":"2025-09-09T19:39:23.767Z"}
+{"hook":"fetch_each.before","level":"debug","message":"开始获取“物理”。","plugin":"cli","timestamp":"2025-09-09T19:39:23.767Z"}
+{"hook":"fetch_each.before","level":"debug","message":"开始获取“机电”。","plugin":"cli","timestamp":"2025-09-09T19:39:23.767Z"}
+{"hook":"fetch_each.before","level":"debug","message":"开始获取“生命”。","plugin":"cli","timestamp":"2025-09-09T19:39:23.767Z"}
+{"hook":"fetch_each.before","level":"debug","message":"开始获取“宇航”。","plugin":"cli","timestamp":"2025-09-09T19:39:23.767Z"}
+{"hook":"fetch_each.before","level":"debug","message":"开始获取“医学”。","plugin":"cli","timestamp":"2025-09-09T19:39:23.767Z"}
+{"hook":"fetch_each.before","level":"debug","message":"开始获取“自动化”。","plugin":"cli","timestamp":"2025-09-09T19:39:23.767Z"}
+{"hook":"fetch_each.before","level":"debug","message":"开始获取“人文”。","plugin":"cli","timestamp":"2025-09-09T19:39:23.768Z"}
+{"hook":"fetch_each.before","level":"debug","message":"开始获取“人文素质”。","plugin":"cli","timestamp":"2025-09-09T19:39:23.768Z"}
+{"hook":"fetch_each.before","level":"debug","message":"开始获取“课程”。","plugin":"cli","timestamp":"2025-09-09T19:39:23.768Z"}
+{"hook":"fetch_each.before","level":"debug","message":"开始获取“国际组织”。","plugin":"cli","timestamp":"2025-09-09T19:39:23.768Z"}
+{"hook":"fetch_each.before","level":"debug","message":"开始获取“法学”。","plugin":"cli","timestamp":"2025-09-09T19:39:23.768Z"}
+{"hook":"fetch_each.before","level":"debug","message":"开始获取“材料”。","plugin":"cli","timestamp":"2025-09-09T19:39:23.768Z"}
+{"hook":"fetch_each.before","level":"debug","message":"开始获取“外国语”。","plugin":"cli","timestamp":"2025-09-09T19:39:23.768Z"}
+{"hook":"fetch_each.before","level":"debug","message":"开始获取“化学”。","plugin":"cli","timestamp":"2025-09-09T19:39:23.768Z"}
+{"hook":"fetch_each.before","level":"debug","message":"开始获取“招采”。","plugin":"cli","timestamp":"2025-09-09T19:39:23.768Z"}
+{"hook":"fetch_each.before","level":"debug","message":"开始获取“资实”。","plugin":"cli","timestamp":"2025-09-09T19:39:23.768Z"}
+{"hook":"fetch_each.before","level":"debug","message":"开始获取“党政部”。","plugin":"cli","timestamp":"2025-09-09T19:39:23.768Z"}
+{"hook":"fetch_each.before","level":"debug","message":"开始获取“数学实验”。","plugin":"cli","timestamp":"2025-09-09T19:39:23.768Z"}
+{"hook":"fetch_each.before","level":"debug","message":"开始获取“图书馆”。","plugin":"cli","timestamp":"2025-09-09T19:39:23.768Z"}
+{"hook":"fetch_each.before","level":"debug","message":"开始获取“图书馆讲座”。","plugin":"cli","timestamp":"2025-09-09T19:39:23.768Z"}
+{"hook":"fetch_each.before","level":"debug","message":"开始获取“延河”。","plugin":"cli","timestamp":"2025-09-09T19:39:23.768Z"}
+{"level":"http","message":"Request https://century.bit.edu.cn/tz/index.htm with proxy.","plugin":"proxy","timestamp":"2025-09-09T19:39:23.771Z"}
+{"level":"http","message":"Request https://student.bit.edu.cn/tzgg/index.htm with proxy.","plugin":"proxy","timestamp":"2025-09-09T19:39:23.771Z"}
+{"level":"http","message":"Request https://student.bit.edu.cn/xngs/index.blk.htm with proxy.","plugin":"proxy","timestamp":"2025-09-09T19:39:23.771Z"}
+{"level":"http","message":"Request http://cxcy.bit.edu.cn/pt/pt/Notice with proxy.","plugin":"proxy","timestamp":"2025-09-09T19:39:23.772Z"}
+{"level":"http","message":"Request https://dzb.bit.edu.cn/cms/web/notify/search?page=1&status=7&rows=20&order=1&sortFiled=publishDate with proxy.","plugin":"proxy","timestamp":"2025-09-09T19:39:23.773Z"}
+{"level":"http","message":"Request http://mec.bit.edu.cn/pcmd/ajax.php?vpn-12-o1-mec.bit.edu.cn&act=getmanage_nologin&w=新闻公告 with proxy.","plugin":"proxy","timestamp":"2025-09-09T19:39:23.773Z"}
+{"hook":"fetch_each.error","level":"error","message":"TypeError: error sending request for url (https://rw.bit.edu.cn/tzgg/index.htm): client error (Connect): tcp connect error: Connection refused (os error 111): Connection refused (os error 111)","plugin":"cli","timestamp":"2025-09-09T19:39:24.982Z"}
+{"hook":"fetch_each.error","level":"error","message":"TypeError: error sending request for url (https://rw.bit.edu.cn/rwszjyb/tzxw/index.htm): client error (Connect): tcp connect error: Connection refused (os error 111): Connection refused (os error 111)","plugin":"cli","timestamp":"2025-09-09T19:39:24.983Z"}
+{"hook":"fetch_each.after","level":"debug","message":"结束获取“人文”。","plugin":"cli","timestamp":"2025-09-09T19:39:24.983Z"}
+{"hook":"fetch_each.after","level":"debug","message":"结束获取“人文素质”。","plugin":"cli","timestamp":"2025-09-09T19:39:24.983Z"}
+{"hook":"fetch_each.after","level":"debug","message":"结束获取“党政部”。","plugin":"cli","timestamp":"2025-09-09T19:39:25.223Z"}
+{"hook":"fetch_each.after","level":"debug","message":"结束获取“大创”。","plugin":"cli","timestamp":"2025-09-09T19:39:25.591Z"}
+{"hook":"fetch_each.after","level":"debug","message":"结束获取“延河”。","plugin":"cli","timestamp":"2025-09-09T19:39:25.632Z"}
+{"hook":"fetch_each.after","level":"debug","message":"结束获取“图书馆讲座”。","plugin":"cli","timestamp":"2025-09-09T19:39:25.663Z"}
+{"hook":"fetch_each.after","level":"debug","message":"结束获取“求是”。","plugin":"cli","timestamp":"2025-09-09T19:39:25.698Z"}
+{"hook":"fetch_each.after","level":"debug","message":"结束获取“图书馆”。","plugin":"cli","timestamp":"2025-09-09T19:39:25.718Z"}
+{"hook":"fetch_each.after","level":"debug","message":"结束获取“精工”。","plugin":"cli","timestamp":"2025-09-09T19:39:25.777Z"}
+{"hook":"fetch_each.after","level":"debug","message":"结束获取“数学实验”。","plugin":"cli","timestamp":"2025-09-09T19:39:25.850Z"}
+{"level":"http","message":"Time is out when requesting “https://www.bit.edu.cn/rcpy_sjb/blsy87/rxsygb/tzggsy2/index.htm”. Retry later.","plugin":"retry","timestamp":"2025-09-09T19:39:33.777Z"}
+{"level":"http","message":"Time is out when requesting “https://mingde.bit.edu.cn/tzgg/index.htm”. Retry later.","plugin":"retry","timestamp":"2025-09-09T19:39:33.777Z"}
+{"level":"http","message":"Time is out when requesting “https://sme.bit.edu.cn/gbxwzx/tzgg/index.htm”. Retry later.","plugin":"retry","timestamp":"2025-09-09T19:39:33.777Z"}
+{"level":"http","message":"Time is out when requesting “https://design.bit.edu.cn/zs/tz2/index.htm”. Retry later.","plugin":"retry","timestamp":"2025-09-09T19:39:33.777Z"}
+{"level":"http","message":"Time is out when requesting “https://xuteli.bit.edu.cn/tzgg/index.htm”. Retry later.","plugin":"retry","timestamp":"2025-09-09T19:39:33.777Z"}
+{"level":"http","message":"Time is out when requesting “https://bj.bit.edu.cn/tzgg/index.htm”. Retry later.","plugin":"retry","timestamp":"2025-09-09T19:39:33.777Z"}
+{"level":"http","message":"Time is out when requesting “https://isc.bit.edu.cn/eventsnotices/index.htm”. Retry later.","plugin":"retry","timestamp":"2025-09-09T19:39:33.778Z"}
+{"level":"http","message":"Time is out when requesting “https://marx.bit.edu.cn/tzgg/index.htm”. Retry later.","plugin":"retry","timestamp":"2025-09-09T19:39:33.778Z"}
+{"level":"http","message":"Time is out when requesting “https://grd.bit.edu.cn/tzgg1/index.htm”. Retry later.","plugin":"retry","timestamp":"2025-09-09T19:39:33.778Z"}
+{"level":"http","message":"Time is out when requesting “https://www.bit.edu.cn/tzgg17/zxtz/index.htm”. Retry later.","plugin":"retry","timestamp":"2025-09-09T19:39:33.778Z"}
+{"level":"http","message":"Time is out when requesting “https://jwb.bit.edu.cn/tzgg/index.htm”. Retry later.","plugin":"retry","timestamp":"2025-09-09T19:39:33.778Z"}
+{"level":"http","message":"Time is out when requesting “https://jxzx.bit.edu.cn/tzgg/index.htm”. Retry later.","plugin":"retry","timestamp":"2025-09-09T19:39:33.778Z"}
+{"level":"http","message":"Time is out when requesting “https://cs.bit.edu.cn/tzgg/index.htm”. Retry later.","plugin":"retry","timestamp":"2025-09-09T19:39:33.778Z"}
+{"level":"http","message":"Time is out when requesting “https://www.bit.edu.cn/gbxxgk/gbgljg/xscxcysjzx/index.htm”. Retry later.","plugin":"retry","timestamp":"2025-09-09T19:39:33.778Z"}
+{"level":"http","message":"Time is out when requesting “https://opt.bit.edu.cn/tzgg2/tzgg/index.htm”. Retry later.","plugin":"retry","timestamp":"2025-09-09T19:39:33.778Z"}
+{"level":"http","message":"Time is out when requesting “https://itc.bit.edu.cn/tzgg/index.htm”. Retry later.","plugin":"retry","timestamp":"2025-09-09T19:39:33.778Z"}
+{"level":"http","message":"Time is out when requesting “https://renshichu.bit.edu.cn/gbtzgg/index.htm”. Retry later.","plugin":"retry","timestamp":"2025-09-09T19:39:33.778Z"}
+{"level":"http","message":"Time is out when requesting “https://xxgk.bit.edu.cn/zxgkxx/index.htm”. Retry later.","plugin":"retry","timestamp":"2025-09-09T19:39:33.778Z"}
+{"level":"http","message":"Time is out when requesting “https://xxgk.bit.edu.cn/tzgg/index.htm”. Retry later.","plugin":"retry","timestamp":"2025-09-09T19:39:33.778Z"}
+{"level":"http","message":"Time is out when requesting “https://xyy.bit.edu.cn/tzgg/index.htm”. Retry later.","plugin":"retry","timestamp":"2025-09-09T19:39:33.779Z"}
+{"level":"http","message":"Time is out when requesting “https://abroad.bit.edu.cn/xwtz/tzgg/index.htm”. Retry later.","plugin":"retry","timestamp":"2025-09-09T19:39:33.780Z"}
+{"level":"http","message":"Time is out when requesting “https://hi.bit.edu.cn/rxbd/dttzyx/index.htm”. Retry later.","plugin":"retry","timestamp":"2025-09-09T19:39:33.780Z"}
+{"level":"http","message":"Time is out when requesting “https://sie.bit.edu.cn/index.htm”. Retry later.","plugin":"retry","timestamp":"2025-09-09T19:39:33.780Z"}
+{"level":"http","message":"Time is out when requesting “https://cst.bit.edu.cn/xxfw/tzgg/index.htm”. Retry later.","plugin":"retry","timestamp":"2025-09-09T19:39:33.780Z"}
+{"level":"http","message":"Time is out when requesting “https://ice.bit.edu.cn/xxfw/tzgg1/index.htm”. Retry later.","plugin":"retry","timestamp":"2025-09-09T19:39:33.780Z"}
+{"level":"http","message":"Time is out when requesting “https://me.bit.edu.cn/tzgg/index.htm”. Retry later.","plugin":"retry","timestamp":"2025-09-09T19:39:33.780Z"}
+{"level":"http","message":"Time is out when requesting “https://math.bit.edu.cn/tzgg/index.htm”. Retry later.","plugin":"retry","timestamp":"2025-09-09T19:39:33.780Z"}
+{"level":"http","message":"Time is out when requesting “https://physics.bit.edu.cn/tzgg4/index.htm”. Retry later.","plugin":"retry","timestamp":"2025-09-09T19:39:33.780Z"}
+{"level":"http","message":"Time is out when requesting “https://smen.bit.edu.cn/tzgg/index.htm”. Retry later.","plugin":"retry","timestamp":"2025-09-09T19:39:33.780Z"}
+{"level":"http","message":"Time is out when requesting “https://ls.bit.edu.cn/xytz/index.htm”. Retry later.","plugin":"retry","timestamp":"2025-09-09T19:39:33.780Z"}
+{"level":"http","message":"Time is out when requesting “https://sae.bit.edu.cn/tzgggb/index.htm”. Retry later.","plugin":"retry","timestamp":"2025-09-09T19:39:33.780Z"}
+{"level":"http","message":"Time is out when requesting “https://smt.bit.edu.cn/tzgg/index.htm”. Retry later.","plugin":"retry","timestamp":"2025-09-09T19:39:33.781Z"}
+{"level":"http","message":"Time is out when requesting “https://ac.bit.edu.cn/tzgg/index.htm”. Retry later.","plugin":"retry","timestamp":"2025-09-09T19:39:33.781Z"}
+{"level":"http","message":"Time is out when requesting “https://jxzx.bit.edu.cn/jxyx/index.htm”. Retry later.","plugin":"retry","timestamp":"2025-09-09T19:39:33.781Z"}
+{"level":"http","message":"Time is out when requesting “https://sgg.bit.edu.cn/tzgg/index.htm”. Retry later.","plugin":"retry","timestamp":"2025-09-09T19:39:33.781Z"}
+{"level":"http","message":"Time is out when requesting “https://law.bit.edu.cn/tzgg/xsbd/index.htm”. Retry later.","plugin":"retry","timestamp":"2025-09-09T19:39:33.781Z"}
+{"level":"http","message":"Time is out when requesting “https://mse.bit.edu.cn/tzgg/index.htm”. Retry later.","plugin":"retry","timestamp":"2025-09-09T19:39:33.781Z"}
+{"level":"http","message":"Time is out when requesting “https://sfl.bit.edu.cn/tzgg/index.htm”. Retry later.","plugin":"retry","timestamp":"2025-09-09T19:39:33.781Z"}
+{"level":"http","message":"Time is out when requesting “https://cce.bit.edu.cn/tzgg/index.htm”. Retry later.","plugin":"retry","timestamp":"2025-09-09T19:39:33.781Z"}
+{"level":"http","message":"Time is out when requesting “https://bit.edu.cn/tzgg17/zcgg/index.htm”. Retry later.","plugin":"retry","timestamp":"2025-09-09T19:39:33.781Z"}
+{"level":"http","message":"Time is out when requesting “https://zsc.bit.edu.cn/xwgg/tzgg/index.htm”. Retry later.","plugin":"retry","timestamp":"2025-09-09T19:39:33.781Z"}
+{"hook":"fetch_each.after","level":"debug","message":"结束获取“学工部等”。","plugin":"cli","timestamp":"2025-09-09T19:39:39.883Z"}
+{"level":"warn","message":"未从“学生事务”获取到任何通知。将忽略。","plugin":"cli","timestamp":"2025-09-09T19:39:39.892Z"}
+{"hook":"fetch_each.after","level":"debug","message":"结束获取“学生事务”。","plugin":"cli","timestamp":"2025-09-09T19:39:39.893Z"}
+{"level":"warn","message":"未从“资助公示”获取到任何通知。将忽略。","plugin":"cli","timestamp":"2025-09-09T19:39:40.512Z"}
+{"hook":"fetch_each.after","level":"debug","message":"结束获取“资助公示”。","plugin":"cli","timestamp":"2025-09-09T19:39:40.513Z"}
+{"level":"http","message":"Retry “https://www.bit.edu.cn/rcpy_sjb/blsy87/rxsygb/tzggsy2/index.htm”.","plugin":"retry","timestamp":"2025-09-09T19:39:43.778Z"}
+{"level":"http","message":"Retry “https://mingde.bit.edu.cn/tzgg/index.htm”.","plugin":"retry","timestamp":"2025-09-09T19:39:43.778Z"}
+{"level":"http","message":"Retry “https://sme.bit.edu.cn/gbxwzx/tzgg/index.htm”.","plugin":"retry","timestamp":"2025-09-09T19:39:43.779Z"}
+{"level":"http","message":"Retry “https://design.bit.edu.cn/zs/tz2/index.htm”.","plugin":"retry","timestamp":"2025-09-09T19:39:43.779Z"}
+{"level":"http","message":"Retry “https://xuteli.bit.edu.cn/tzgg/index.htm”.","plugin":"retry","timestamp":"2025-09-09T19:39:43.779Z"}
+{"level":"http","message":"Retry “https://bj.bit.edu.cn/tzgg/index.htm”.","plugin":"retry","timestamp":"2025-09-09T19:39:43.779Z"}
+{"level":"http","message":"Retry “https://isc.bit.edu.cn/eventsnotices/index.htm”.","plugin":"retry","timestamp":"2025-09-09T19:39:43.779Z"}
+{"level":"http","message":"Retry “https://marx.bit.edu.cn/tzgg/index.htm”.","plugin":"retry","timestamp":"2025-09-09T19:39:43.780Z"}
+{"level":"http","message":"Retry “https://grd.bit.edu.cn/tzgg1/index.htm”.","plugin":"retry","timestamp":"2025-09-09T19:39:43.780Z"}
+{"level":"http","message":"Retry “https://www.bit.edu.cn/tzgg17/zxtz/index.htm”.","plugin":"retry","timestamp":"2025-09-09T19:39:43.780Z"}
+{"level":"http","message":"Retry “https://jwb.bit.edu.cn/tzgg/index.htm”.","plugin":"retry","timestamp":"2025-09-09T19:39:43.781Z"}
+{"level":"http","message":"Retry “https://jxzx.bit.edu.cn/tzgg/index.htm”.","plugin":"retry","timestamp":"2025-09-09T19:39:43.781Z"}
+{"level":"http","message":"Retry “https://cs.bit.edu.cn/tzgg/index.htm”.","plugin":"retry","timestamp":"2025-09-09T19:39:43.781Z"}
+{"level":"http","message":"Retry “https://www.bit.edu.cn/gbxxgk/gbgljg/xscxcysjzx/index.htm”.","plugin":"retry","timestamp":"2025-09-09T19:39:43.781Z"}
+{"level":"http","message":"Retry “https://opt.bit.edu.cn/tzgg2/tzgg/index.htm”.","plugin":"retry","timestamp":"2025-09-09T19:39:43.782Z"}
+{"level":"http","message":"Retry “https://itc.bit.edu.cn/tzgg/index.htm”.","plugin":"retry","timestamp":"2025-09-09T19:39:43.782Z"}
+{"level":"http","message":"Retry “https://renshichu.bit.edu.cn/gbtzgg/index.htm”.","plugin":"retry","timestamp":"2025-09-09T19:39:43.782Z"}
+{"level":"http","message":"Retry “https://xxgk.bit.edu.cn/zxgkxx/index.htm”.","plugin":"retry","timestamp":"2025-09-09T19:39:43.782Z"}
+{"level":"http","message":"Retry “https://xxgk.bit.edu.cn/tzgg/index.htm”.","plugin":"retry","timestamp":"2025-09-09T19:39:43.782Z"}
+{"level":"http","message":"Retry “https://xyy.bit.edu.cn/tzgg/index.htm”.","plugin":"retry","timestamp":"2025-09-09T19:39:43.783Z"}
+{"level":"http","message":"Retry “https://abroad.bit.edu.cn/xwtz/tzgg/index.htm”.","plugin":"retry","timestamp":"2025-09-09T19:39:43.783Z"}
+{"level":"http","message":"Retry “https://hi.bit.edu.cn/rxbd/dttzyx/index.htm”.","plugin":"retry","timestamp":"2025-09-09T19:39:43.784Z"}
+{"level":"http","message":"Retry “https://sie.bit.edu.cn/index.htm”.","plugin":"retry","timestamp":"2025-09-09T19:39:43.784Z"}
+{"level":"http","message":"Retry “https://cst.bit.edu.cn/xxfw/tzgg/index.htm”.","plugin":"retry","timestamp":"2025-09-09T19:39:43.784Z"}
+{"level":"http","message":"Retry “https://ice.bit.edu.cn/xxfw/tzgg1/index.htm”.","plugin":"retry","timestamp":"2025-09-09T19:39:43.784Z"}
+{"level":"http","message":"Retry “https://me.bit.edu.cn/tzgg/index.htm”.","plugin":"retry","timestamp":"2025-09-09T19:39:43.785Z"}
+{"level":"http","message":"Retry “https://math.bit.edu.cn/tzgg/index.htm”.","plugin":"retry","timestamp":"2025-09-09T19:39:43.785Z"}
+{"level":"http","message":"Retry “https://physics.bit.edu.cn/tzgg4/index.htm”.","plugin":"retry","timestamp":"2025-09-09T19:39:43.785Z"}
+{"level":"http","message":"Retry “https://smen.bit.edu.cn/tzgg/index.htm”.","plugin":"retry","timestamp":"2025-09-09T19:39:43.785Z"}
+{"level":"http","message":"Retry “https://ls.bit.edu.cn/xytz/index.htm”.","plugin":"retry","timestamp":"2025-09-09T19:39:43.785Z"}
+{"level":"http","message":"Retry “https://sae.bit.edu.cn/tzgggb/index.htm”.","plugin":"retry","timestamp":"2025-09-09T19:39:43.786Z"}
+{"level":"http","message":"Retry “https://smt.bit.edu.cn/tzgg/index.htm”.","plugin":"retry","timestamp":"2025-09-09T19:39:43.786Z"}
+{"level":"http","message":"Retry “https://ac.bit.edu.cn/tzgg/index.htm”.","plugin":"retry","timestamp":"2025-09-09T19:39:43.786Z"}
+{"level":"http","message":"Retry “https://jxzx.bit.edu.cn/jxyx/index.htm”.","plugin":"retry","timestamp":"2025-09-09T19:39:43.786Z"}
+{"level":"http","message":"Retry “https://sgg.bit.edu.cn/tzgg/index.htm”.","plugin":"retry","timestamp":"2025-09-09T19:39:43.786Z"}
+{"level":"http","message":"Retry “https://law.bit.edu.cn/tzgg/xsbd/index.htm”.","plugin":"retry","timestamp":"2025-09-09T19:39:43.787Z"}
+{"level":"http","message":"Retry “https://mse.bit.edu.cn/tzgg/index.htm”.","plugin":"retry","timestamp":"2025-09-09T19:39:43.787Z"}
+{"level":"http","message":"Retry “https://sfl.bit.edu.cn/tzgg/index.htm”.","plugin":"retry","timestamp":"2025-09-09T19:39:43.787Z"}
+{"level":"http","message":"Retry “https://cce.bit.edu.cn/tzgg/index.htm”.","plugin":"retry","timestamp":"2025-09-09T19:39:43.787Z"}
+{"level":"http","message":"Retry “https://bit.edu.cn/tzgg17/zcgg/index.htm”.","plugin":"retry","timestamp":"2025-09-09T19:39:43.787Z"}
+{"level":"http","message":"Retry “https://zsc.bit.edu.cn/xwgg/tzgg/index.htm”.","plugin":"retry","timestamp":"2025-09-09T19:39:43.787Z"}
+{"level":"error","message":"访问“睿信”（Timeout）超时，可能因为访问太频繁。将忽略。","plugin":"cli","timestamp":"2025-09-09T19:39:53.780Z"}
+{"hook":"fetch_each.after","level":"debug","message":"结束获取“睿信”。","plugin":"cli","timestamp":"2025-09-09T19:39:53.780Z"}
+{"level":"error","message":"访问“明德”（Timeout）超时，可能因为访问太频繁。将忽略。","plugin":"cli","timestamp":"2025-09-09T19:39:53.780Z"}
+{"hook":"fetch_each.after","level":"debug","message":"结束获取“明德”。","plugin":"cli","timestamp":"2025-09-09T19:39:53.780Z"}
+{"level":"error","message":"访问“经管”（Timeout）超时，可能因为访问太频繁。将忽略。","plugin":"cli","timestamp":"2025-09-09T19:39:53.780Z"}
+{"hook":"fetch_each.after","level":"debug","message":"结束获取“经管”。","plugin":"cli","timestamp":"2025-09-09T19:39:53.780Z"}
+{"level":"error","message":"访问“知艺”（Timeout）超时，可能因为访问太频繁。将忽略。","plugin":"cli","timestamp":"2025-09-09T19:39:53.781Z"}
+{"hook":"fetch_each.after","level":"debug","message":"结束获取“知艺”。","plugin":"cli","timestamp":"2025-09-09T19:39:53.781Z"}
+{"level":"error","message":"访问“特立”（Timeout）超时，可能因为访问太频繁。将忽略。","plugin":"cli","timestamp":"2025-09-09T19:39:53.781Z"}
+{"hook":"fetch_each.after","level":"debug","message":"结束获取“特立”。","plugin":"cli","timestamp":"2025-09-09T19:39:53.781Z"}
+{"level":"error","message":"访问“北京书院”（Timeout）超时，可能因为访问太频繁。将忽略。","plugin":"cli","timestamp":"2025-09-09T19:39:53.781Z"}
+{"hook":"fetch_each.after","level":"debug","message":"结束获取“北京书院”。","plugin":"cli","timestamp":"2025-09-09T19:39:53.781Z"}
+{"level":"error","message":"访问“留学生”（Timeout）超时，可能因为访问太频繁。将忽略。","plugin":"cli","timestamp":"2025-09-09T19:39:53.781Z"}
+{"hook":"fetch_each.after","level":"debug","message":"结束获取“留学生”。","plugin":"cli","timestamp":"2025-09-09T19:39:53.781Z"}
+{"level":"error","message":"访问“马克思”（Timeout）超时，可能因为访问太频繁。将忽略。","plugin":"cli","timestamp":"2025-09-09T19:39:53.782Z"}
+{"hook":"fetch_each.after","level":"debug","message":"结束获取“马克思”。","plugin":"cli","timestamp":"2025-09-09T19:39:53.783Z"}
+{"level":"error","message":"访问“研究生”（Timeout）超时，可能因为访问太频繁。将忽略。","plugin":"cli","timestamp":"2025-09-09T19:39:53.783Z"}
+{"hook":"fetch_each.after","level":"debug","message":"结束获取“研究生”。","plugin":"cli","timestamp":"2025-09-09T19:39:53.783Z"}
+{"level":"error","message":"访问“通用”（Timeout）超时，可能因为访问太频繁。将忽略。","plugin":"cli","timestamp":"2025-09-09T19:39:53.783Z"}
+{"hook":"fetch_each.after","level":"debug","message":"结束获取“通用”。","plugin":"cli","timestamp":"2025-09-09T19:39:53.783Z"}
+{"level":"error","message":"访问“教务部”（Timeout）超时，可能因为访问太频繁。将忽略。","plugin":"cli","timestamp":"2025-09-09T19:39:53.783Z"}
+{"hook":"fetch_each.after","level":"debug","message":"结束获取“教务部”。","plugin":"cli","timestamp":"2025-09-09T19:39:53.783Z"}
+{"level":"error","message":"访问“教学中心”（Timeout）超时，可能因为访问太频繁。将忽略。","plugin":"cli","timestamp":"2025-09-09T19:39:53.783Z"}
+{"hook":"fetch_each.after","level":"debug","message":"结束获取“教学中心”。","plugin":"cli","timestamp":"2025-09-09T19:39:53.783Z"}
+{"level":"error","message":"访问“计算机”（Timeout）超时，可能因为访问太频繁。将忽略。","plugin":"cli","timestamp":"2025-09-09T19:39:53.783Z"}
+{"hook":"fetch_each.after","level":"debug","message":"结束获取“计算机”。","plugin":"cli","timestamp":"2025-09-09T19:39:53.783Z"}
+{"level":"error","message":"访问“创新创业”（Timeout）超时，可能因为访问太频繁。将忽略。","plugin":"cli","timestamp":"2025-09-09T19:39:53.784Z"}
+{"hook":"fetch_each.after","level":"debug","message":"结束获取“创新创业”。","plugin":"cli","timestamp":"2025-09-09T19:39:53.784Z"}
+{"level":"error","message":"访问“光电”（Timeout）超时，可能因为访问太频繁。将忽略。","plugin":"cli","timestamp":"2025-09-09T19:39:53.784Z"}
+{"hook":"fetch_each.after","level":"debug","message":"结束获取“光电”。","plugin":"cli","timestamp":"2025-09-09T19:39:53.784Z"}
+{"level":"error","message":"访问“网信”（Timeout）超时，可能因为访问太频繁。将忽略。","plugin":"cli","timestamp":"2025-09-09T19:39:53.784Z"}
+{"hook":"fetch_each.after","level":"debug","message":"结束获取“网信”。","plugin":"cli","timestamp":"2025-09-09T19:39:53.784Z"}
+{"level":"error","message":"访问“人事”（Timeout）超时，可能因为访问太频繁。将忽略。","plugin":"cli","timestamp":"2025-09-09T19:39:53.784Z"}
+{"hook":"fetch_each.after","level":"debug","message":"结束获取“人事”。","plugin":"cli","timestamp":"2025-09-09T19:39:53.784Z"}
+{"level":"error","message":"访问“公开数据”（Timeout）超时，可能因为访问太频繁。将忽略。","plugin":"cli","timestamp":"2025-09-09T19:39:53.785Z"}
+{"hook":"fetch_each.after","level":"debug","message":"结束获取“公开数据”。","plugin":"cli","timestamp":"2025-09-09T19:39:53.785Z"}
+{"level":"error","message":"访问“公开通知”（Timeout）超时，可能因为访问太频繁。将忽略。","plugin":"cli","timestamp":"2025-09-09T19:39:53.785Z"}
+{"hook":"fetch_each.after","level":"debug","message":"结束获取“公开通知”。","plugin":"cli","timestamp":"2025-09-09T19:39:53.785Z"}
+{"level":"error","message":"访问“校医院”（Timeout）超时，可能因为访问太频繁。将忽略。","plugin":"cli","timestamp":"2025-09-09T19:39:53.785Z"}
+{"hook":"fetch_each.after","level":"debug","message":"结束获取“校医院”。","plugin":"cli","timestamp":"2025-09-09T19:39:53.785Z"}
+{"level":"error","message":"访问“国际交流”（Timeout）超时，可能因为访问太频繁。将忽略。","plugin":"cli","timestamp":"2025-09-09T19:39:53.786Z"}
+{"hook":"fetch_each.after","level":"debug","message":"结束获取“国际交流”。","plugin":"cli","timestamp":"2025-09-09T19:39:53.786Z"}
+{"level":"error","message":"访问“新生”（Timeout）超时，可能因为访问太频繁。将忽略。","plugin":"cli","timestamp":"2025-09-09T19:39:53.786Z"}
+{"hook":"fetch_each.after","level":"debug","message":"结束获取“新生”。","plugin":"cli","timestamp":"2025-09-09T19:39:53.786Z"}
+{"level":"error","message":"访问“信电”（Timeout）超时，可能因为访问太频繁。将忽略。","plugin":"cli","timestamp":"2025-09-09T19:39:53.786Z"}
+{"hook":"fetch_each.after","level":"debug","message":"结束获取“信电”。","plugin":"cli","timestamp":"2025-09-09T19:39:53.786Z"}
+{"level":"error","message":"访问“网安”（Timeout）超时，可能因为访问太频繁。将忽略。","plugin":"cli","timestamp":"2025-09-09T19:39:53.786Z"}
+{"hook":"fetch_each.after","level":"debug","message":"结束获取“网安”。","plugin":"cli","timestamp":"2025-09-09T19:39:53.786Z"}
+{"level":"error","message":"访问“集电”（Timeout）超时，可能因为访问太频繁。将忽略。","plugin":"cli","timestamp":"2025-09-09T19:39:53.786Z"}
+{"hook":"fetch_each.after","level":"debug","message":"结束获取“集电”。","plugin":"cli","timestamp":"2025-09-09T19:39:53.786Z"}
+{"level":"error","message":"访问“机车”（Timeout）超时，可能因为访问太频繁。将忽略。","plugin":"cli","timestamp":"2025-09-09T19:39:53.786Z"}
+{"hook":"fetch_each.after","level":"debug","message":"结束获取“机车”。","plugin":"cli","timestamp":"2025-09-09T19:39:53.786Z"}
+{"level":"error","message":"访问“数学”（Timeout）超时，可能因为访问太频繁。将忽略。","plugin":"cli","timestamp":"2025-09-09T19:39:53.787Z"}
+{"hook":"fetch_each.after","level":"debug","message":"结束获取“数学”。","plugin":"cli","timestamp":"2025-09-09T19:39:53.787Z"}
+{"level":"error","message":"访问“物理”（Timeout）超时，可能因为访问太频繁。将忽略。","plugin":"cli","timestamp":"2025-09-09T19:39:53.787Z"}
+{"hook":"fetch_each.after","level":"debug","message":"结束获取“物理”。","plugin":"cli","timestamp":"2025-09-09T19:39:53.788Z"}
+{"level":"error","message":"访问“机电”（Timeout）超时，可能因为访问太频繁。将忽略。","plugin":"cli","timestamp":"2025-09-09T19:39:53.788Z"}
+{"hook":"fetch_each.after","level":"debug","message":"结束获取“机电”。","plugin":"cli","timestamp":"2025-09-09T19:39:53.788Z"}
+{"level":"error","message":"访问“生命”（Timeout）超时，可能因为访问太频繁。将忽略。","plugin":"cli","timestamp":"2025-09-09T19:39:53.788Z"}
+{"hook":"fetch_each.after","level":"debug","message":"结束获取“生命”。","plugin":"cli","timestamp":"2025-09-09T19:39:53.788Z"}
+{"level":"error","message":"访问“宇航”（Timeout）超时，可能因为访问太频繁。将忽略。","plugin":"cli","timestamp":"2025-09-09T19:39:53.788Z"}
+{"hook":"fetch_each.after","level":"debug","message":"结束获取“宇航”。","plugin":"cli","timestamp":"2025-09-09T19:39:53.788Z"}
+{"level":"error","message":"访问“医学”（Timeout）超时，可能因为访问太频繁。将忽略。","plugin":"cli","timestamp":"2025-09-09T19:39:53.788Z"}
+{"hook":"fetch_each.after","level":"debug","message":"结束获取“医学”。","plugin":"cli","timestamp":"2025-09-09T19:39:53.788Z"}
+{"level":"error","message":"访问“自动化”（Timeout）超时，可能因为访问太频繁。将忽略。","plugin":"cli","timestamp":"2025-09-09T19:39:53.788Z"}
+{"hook":"fetch_each.after","level":"debug","message":"结束获取“自动化”。","plugin":"cli","timestamp":"2025-09-09T19:39:53.788Z"}
+{"level":"error","message":"访问“课程”（Timeout）超时，可能因为访问太频繁。将忽略。","plugin":"cli","timestamp":"2025-09-09T19:39:53.789Z"}
+{"hook":"fetch_each.after","level":"debug","message":"结束获取“课程”。","plugin":"cli","timestamp":"2025-09-09T19:39:53.789Z"}
+{"level":"error","message":"访问“国际组织”（Timeout）超时，可能因为访问太频繁。将忽略。","plugin":"cli","timestamp":"2025-09-09T19:39:53.789Z"}
+{"hook":"fetch_each.after","level":"debug","message":"结束获取“国际组织”。","plugin":"cli","timestamp":"2025-09-09T19:39:53.789Z"}
+{"level":"error","message":"访问“法学”（Timeout）超时，可能因为访问太频繁。将忽略。","plugin":"cli","timestamp":"2025-09-09T19:39:53.789Z"}
+{"hook":"fetch_each.after","level":"debug","message":"结束获取“法学”。","plugin":"cli","timestamp":"2025-09-09T19:39:53.789Z"}
+{"level":"error","message":"访问“材料”（Timeout）超时，可能因为访问太频繁。将忽略。","plugin":"cli","timestamp":"2025-09-09T19:39:53.789Z"}
+{"hook":"fetch_each.after","level":"debug","message":"结束获取“材料”。","plugin":"cli","timestamp":"2025-09-09T19:39:53.789Z"}
+{"level":"error","message":"访问“外国语”（Timeout）超时，可能因为访问太频繁。将忽略。","plugin":"cli","timestamp":"2025-09-09T19:39:53.789Z"}
+{"hook":"fetch_each.after","level":"debug","message":"结束获取“外国语”。","plugin":"cli","timestamp":"2025-09-09T19:39:53.789Z"}
+{"level":"error","message":"访问“化学”（Timeout）超时，可能因为访问太频繁。将忽略。","plugin":"cli","timestamp":"2025-09-09T19:39:53.789Z"}
+{"hook":"fetch_each.after","level":"debug","message":"结束获取“化学”。","plugin":"cli","timestamp":"2025-09-09T19:39:53.789Z"}
+{"level":"error","message":"访问“招采”（Timeout）超时，可能因为访问太频繁。将忽略。","plugin":"cli","timestamp":"2025-09-09T19:39:53.790Z"}
+{"hook":"fetch_each.after","level":"debug","message":"结束获取“招采”。","plugin":"cli","timestamp":"2025-09-09T19:39:53.790Z"}
+{"level":"error","message":"访问“资实”（Timeout）超时，可能因为访问太频繁。将忽略。","plugin":"cli","timestamp":"2025-09-09T19:39:53.790Z"}
+{"hook":"fetch_each.after","level":"debug","message":"结束获取“资实”。","plugin":"cli","timestamp":"2025-09-09T19:39:53.791Z"}
+{"level":"warn","message":"未找到以往通知，您可能是第一次运行。将忽略。","timestamp":"2025-09-09T19:39:53.796Z"}
+{"level":"info","message":"已按需保存到“output/notices.json”。","plugin":"cli","timestamp":"2025-09-09T19:39:53.797Z"}
+{"level":"info","message":"已保存到“output/feed.rss”。","plugin":"rss","timestamp":"2025-09-09T19:39:53.799Z"}
